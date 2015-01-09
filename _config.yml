@@ -1,0 +1,13 @@
+# Site settings
+title: Land Registry
+author: Land Registry
+email:
+description: Land Registry
+baseurl: "/casework-prototypes" # the subpath of your site, e.g. /blog/
+url: "http://www.landregistryconcept.co.uk" # the base hostname & protocol for your site
+
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+exclude: [vendor]
