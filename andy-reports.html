@@ -8,11 +8,9 @@ permalink: /andy/reports/
     <div class="row">
         <div class="col-sm-3 col-md-2 sidebar">
             <ul class="nav nav-sidebar">
-                <li><a href="{{ site.baseurl }}/andy/getwork/"><i class="fa fa-inbox"></i> Get work</a></li>
-                <li><a href="{{ site.baseurl }}/andy/currentapp/"><i class="fa fa-file-text-o"></i> Current Application</a></li>
-                <li class="active"><a><i class="fa fa-newspaper-o"></i> Reports<span class="sr-only">(current)</span></a></li>
-                <li><a href="{{ site.baseurl }}/andy/analyt/"><i class="fa fa-bar-chart"></i> Analytics</a></li>
-                <li><a href="{{ site.baseurl }}/andy/help/"><i class="fa fa-question-circle"></i> User Guides</a></li>
+
+                {% include andy_sidebar.html %}
+
             </ul>
         </div>
         <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
