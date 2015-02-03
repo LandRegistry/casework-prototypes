@@ -1,0 +1,24 @@
+<li
+    {% if page.url == '/andy/getwork/' %} class="active"><a
+    {% else %}><a href="{{ site.baseurl }}/andy/getwork/"
+    {% endif %}><i class="fa fa-inbox"></i> Get work<span class="sr-only">(current)</span></a></li>
+
+<li
+    {% if page.url == '/andy/currentapp/' %} class="active"><a
+    {% else %}><a href="{{ site.baseurl }}/andy/currentapp/"
+    {% endif %}><i class="fa fa-file-text-o"></i> Current Application</a></li>
+
+<li
+    {% if page.url == '/andy/reports/' %} class="active"><a
+    {% else %}><a href="{{ site.baseurl }}/andy/reports/"
+    {% endif %}><i class="fa fa-newspaper-o"></i> Reports</a></li>
+
+<li
+    {% if page.url == '/andy/analyt/' %} class="active"><a
+    {% else %}><a href="{{ site.baseurl }}/andy/analyt/"
+    {% endif %}><i class="fa fa-bar-chart"></i> Analytics</a></li>
+
+<li
+    {% if page.url == '/andy/help/' %} class="active"><a
+    {% else %}><a href="{{ site.baseurl }}/andy/help/"
+    {% endif %}><i class="fa fa-question-circle"></i> User Guides</a></li>
