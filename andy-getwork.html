@@ -5,26 +5,48 @@ permalink: /andy/getwork/
 ---
 
 <div class="container-fluid">
- <div class="row">
+    <div class="row" style="text-align:center">
+        <h1>Outstanding tasks</h1>
+    </div>
 
-  <div class="main" style="text-align:center">
+    <div class="row">
+        <table class="table table-striped" style="text-align:left; width:600px" align="center">
+            <thead>
+            <tr>
+                <th style="width:70%">case</th>
+                <th style="width:10%">valid</th>
+                <th style="text-align:right; width:20%">action</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>case 1 is a really very very long case name innit</td>
+                <td><i class="fa fa-check-square-o"></i></td>
+                <td style="text-align:right">
+                    <a href="{{ site.baseurl }}/andy/currentapp/">
+                        <button type="button" class="btn btn-sm btn-primary">check</button>
+                    </a>
+                </td>
+            </tr>
+            <tr>
+                <td>case 2</td>
+                <td><i class="fa fa-square-o"></i></td>
+                <td style="text-align:right">
+                    <a href="{{ site.baseurl }}/andy/currentapp/">
+                        <button type="button" class="btn btn-sm btn-primary">process</button>
+                    </a>
+                </td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
 
-   <h1>Request new task</h1>
-
-   <h2>
-    <a href="{{ site.baseurl }}/andy/currentapp/">
-     <button type="button" class="btn btn-lg btn-primary">Get work <i class="fa fa-angle-double-right"></i></button>
-    </a>
-   </h2>
-
-   <div>
-    <h3>
-     <span class="label label-info">25 items remaining in daily task list</span>
-    </h3>
-   </div>
-
-
-  </div>
- </div>
+    <div class="row" style="text-align:center">
+        <div>
+            <h4>
+                <span class="label label-info">25 items remaining in daily task list</span>
+            </h4>
+        </div>
+    </div>
 </div>
 
