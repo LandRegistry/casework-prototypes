@@ -1,60 +1,79 @@
-<!--<div class="panel-group" id="accordion">-->
-<div class="panel panel-default">
-    <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseBuyer">
-        <div class="panel-heading appDetails appDetails-ok">
-            <h4 class="panel-title">
-                Buyer information
-            </h4>
+<div class="row">
+    <div class="panel panel-primary">
+        <div class="panel-heading">
+            <h3 class="panel-title">Transaction details</h3>
         </div>
-    </a>
-
-    <div id="collapseBuyer" class="panel-collapse collapse">
         <div class="panel-body">
-            <p>buyer stuff</p>
+            <p>
+                On <strong>14th July 2015</strong>, <strong>Lloyds Bank PLC of Lloyds House, London, NW1
+                1AA</strong>, loaned money
+                to <strong>Barry Edgar Cheese</strong> and <strong>Emily Lily Cake</strong>, secured against the property
+                <strong>42 Awesome Close, Smashingtown, AW35 0ME</strong>, registered under title number <strong>DN123456</strong>
+            </p>
         </div>
     </div>
 </div>
 
-<div class="panel panel-default">
-    <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseLender">
-        <div class="panel-heading appDetails appDetails-ok">
-            <h4 class="panel-title">
-                Lender information
-            </h4>
-        </div>
-    </a>
-
-    <div id="collapseLender" class="panel-collapse collapse">
-        <div class="panel-body">
-            <p>Lender stuff</p>
-        </div>
-    </div>
-</div>
-
-<div class="panel panel-default">
-    <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseProperty">
-        <div class="panel-heading appDetails appDetails-bad">
-            <h4 class="panel-title">
-                Property information
-            </h4>
-        </div>
-    </a>
-
-    <div id="collapseProperty" class="panel-collapse collapse in">
-        <div class="panel-body">
-            <p>This is the property information, it is incomplete and requires some input</p>
-        </div>
-    </div>
-</div>
-<!--</div>-->
-
-<div>
-    <h2>
-        <a href="{{ site.baseurl }}/andy/getwork/" class="btn btn-lg btn-default">
-            Complete application <i class="fa fa-angle-double-right"></i>
+<div class="row">
+    <div class="panel panel-default">
+        <a class="accordion-toggle collapsed" data-toggle="collapse" href="#collapseBuyer">
+            <div class="panel-heading appDetails appDetails-ok">
+                <h4 class="panel-title">
+                    Buyer information
+                </h4>
+            </div>
         </a>
-        <a href="{{ site.baseurl }}/andy/getwork/" class="btn btn-lg btn-warning">
-            Standover application <i class="fa fa-angle-double-right"></i>
+
+        <div id="collapseBuyer" class="panel-collapse collapse">
+            <div class="panel-body">
+                <p>buyer stuff</p>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="row">
+    <div class="panel panel-default">
+        <a class="accordion-toggle collapsed" data-toggle="collapse" href="#collapseLender">
+            <div class="panel-heading appDetails appDetails-ok">
+                <h4 class="panel-title">
+                    Lender information
+                </h4>
+            </div>
         </a>
-    </h2>
+
+        <div id="collapseLender" class="panel-collapse collapse">
+            <div class="panel-body">
+                <p>Lender stuff</p>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="row">
+    <div class="panel panel-default">
+        <a class="accordion-toggle" data-toggle="collapse" href="#collapseProperty">
+            <div class="panel-heading appDetails appDetails-bad">
+                <h4 class="panel-title">
+                    Property information
+                </h4>
+            </div>
+        </a>
+
+        <div id="collapseProperty" class="panel-collapse collapse in">
+            <div class="panel-body">
+                <p>This is the property information, it is incomplete and requires some input</p>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="row">
+    <div>
+        <h2>
+            <a href="{{ site.baseurl }}/andy/getwork/" class="btn btn-lg btn-default">
+                Complete application <i class="fa fa-angle-double-right"></i>
+            </a>
+            <a href="{{ site.baseurl }}/andy/standover/" class="btn btn-lg btn-warning">
+                Standover application <i class="fa fa-angle-double-right"></i>
+            </a>
+        </h2>
+    </div>
 </div>
