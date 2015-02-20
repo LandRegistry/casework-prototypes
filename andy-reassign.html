@@ -1,0 +1,35 @@
+---
+layout: work_queue_andy
+title: Current Application
+permalink: /andy/reassign/
+---
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-sm-5 col-md-4 sidebar">
+            <ul class="nav nav-sidebar">
+
+                {% include andy_register_view.html %}
+
+            </ul>
+        </div>
+        <div class="col-sm-7 col-sm-offset-5 col-md-8 col-md-offset-4 main">
+            <h1>Enter user to reassign case to</h1>
+
+
+            <form action="{{ site.baseurl }}/andy/getwork/">
+                <div class="input-group col-sm-4 col-md-6">
+                    <input type="text" class="form-control" placeholder="user name" autofocus="true">
+                </div>
+                <br/>
+
+                <div>
+                    <input class="btn btn-lg btn-default" type="submit" value="Submit">
+                    <a href="{{ site.baseurl }}/andy/currentapp/" class="btn btn-lg btn-warning">
+                        Cancel
+                    </a>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
