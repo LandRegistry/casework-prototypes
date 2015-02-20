@@ -1,0 +1,25 @@
+---
+layout: work_queue_andy
+title: Current Application
+permalink: /andy/currentapp2/
+---
+
+<div class="container-fluid">
+    <div class="col-md-6">
+        <div>
+            <h2>Existing register</h2>
+        </div>
+
+        {% include andy_register_view.html %}
+
+    </div>
+    <div class="col-md-offset-6 col-md-6">
+        <div>
+            <h2>Enter new register details</h2>
+        </div>
+        <!--in the future there may be different includes based on the condition of the type of
+        application being processed-->
+
+        {% include andy_charge_register.html %}
+    </div>
+</div>

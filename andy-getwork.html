@@ -5,30 +5,14 @@ permalink: /andy/getwork/
 ---
 
 <div class="container-fluid">
- <div class="row">
-  <div class="col-sm-3 col-md-2 sidebar">
-   <ul class="nav nav-sidebar">
+    <div class="row" style="text-align:center">
+        <h1>Outstanding tasks</h1>
+    </div>
 
-    {% include andy_sidebar.html %}
+    <div class="row">
 
-   </ul>
-  </div>
-  <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
+        {% include andy_worklist.html %}
 
-   <h1>Request new task</h1>
-
-   <h2>
-    <a href="{{ site.baseurl }}/andy/currentapp/">
-     <button type="button" class="btn btn-lg btn-primary">Get work <i class="fa fa-angle-double-right"></i></button>
-    </a>
-   </h2>
-
-   <h3>
-    <span class="label label-info">25 items remaining in daily task list</span>
-   </h3>
-
-
-  </div>
- </div>
+    </div>
 </div>
 

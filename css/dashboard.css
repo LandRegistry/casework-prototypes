@@ -79,6 +79,10 @@
     margin-top: 0;
 }
 
+.container-andy {
+    width: 100%;
+}
+
 
 /*
 * Placeholder dashboard ideas
@@ -99,14 +103,22 @@
     border-radius: 50%;
 }
 
-.panel-heading .accordion-toggle:after {
-    /* symbol for "opening" panels */
-    font-family: 'Glyphicons Halflings';  /* essential for enabling glyphicon */
-    content: "\e114";    /* adjust as needed, taken from bootstrap.css */
-    float: right;        /* adjust as needed */
-    color: black;         /* adjust as needed */
+.appDetails-ok {
+    /*panel headings are green when ok*/
+    background-color:green;
+    color: white;
 }
-.panel-heading .accordion-toggle.collapsed:after {
-    /* symbol for "collapsed" panels */
-    content: "\e080";    /* adjust as needed, taken from bootstrap.css */
+
+.appDetails-bad {
+    /*panel headings are red when action is required*/
+    background-color:red;
+    color: white;
+}
+
+.appDetails .panel-title::after {
+    /*put a small note in the right of every panel title to show collapsability*/
+    content: '[click to expand/collapse]';
+    color:white;
+    float:right;
+    font-size: x-small;
 }
