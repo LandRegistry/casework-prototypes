@@ -1,0 +1,24 @@
+<div role="tabpanel">
+
+    <!-- Nav tabs -->
+    <ul class="nav nav-tabs" role="tablist">
+        <li role="presentation" class="active"><a href="#a-reg2" aria-controls="home" role="tab" data-toggle="tab">A Register</a></li>
+        <li role="presentation"><a href="#b-reg2" aria-controls="profile" role="tab" data-toggle="tab">B Register</a></li>
+        <li role="presentation"><a href="#c-reg2" aria-controls="messages" role="tab" data-toggle="tab">C Register</a></li>
+    </ul>
+
+    <!-- Tab panes -->
+    <div class="tab-content">
+        <!-- The contents of these three tabs will eventually be loaded dynamically but for now are hardcoded-->
+        <div role="tabpanel" class="tab-pane fade in active" id="a-reg2" style="padding-left:5px; padding-right:5px">
+            {% include andy_a_reg_new.html %}
+        </div>
+        <div role="tabpanel" class="tab-pane fade" id="b-reg2" style="padding-left:5px; padding-right:5px">
+            {% include andy_b_reg_new.html %}
+        </div>
+        <div role="tabpanel" class="tab-pane fade" id="c-reg2" style="padding-left:5px; padding-right:5px">
+            {% include andy_c_reg_new.html %}
+        </div>
+    </div>
+</div>
+
