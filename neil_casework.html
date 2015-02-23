@@ -16,13 +16,13 @@ permalink: /neil/casework/
             </ul>
         </div>
         <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
-            <h1>Manage case</h1>
             <div class="col-md-6">
+                <h1>Manage case</h1>
                 <div class="panel-group" id="accordion">
                     <div class="panel panel-default">
                         <div class="panel-heading">
                             <h2 class="panel-title">
-                                <a class="accordion-toggle" data-toggle="collapse" href="#collapseOne">
+                                <a data-toggle="collapse" href="#collapseOne">
                                     Title details
                                 </a>
                             </h2>
@@ -53,7 +53,7 @@ permalink: /neil/casework/
                     <div class="panel panel-default">
                         <div class="panel-heading">
                             <h2 class="panel-title">
-                                <a class="accordion-toggle" data-toggle="collapse" href="#collapseTwo">
+                                <a data-toggle="collapse" href="#collapseTwo">
                                     Customer
                                 </a>
                             </h2>
@@ -67,7 +67,7 @@ permalink: /neil/casework/
                     <div class="panel panel-default">
                         <div class="panel-heading">
                             <h2 class="panel-title">
-                                <a class="accordion-toggle" data-toggle="collapse" href="#collapseThree">
+                                <a data-toggle="collapse" href="#collapseThree">
                                     Charge details
                                 </a>
                             </h2>
@@ -82,7 +82,7 @@ permalink: /neil/casework/
                     <div class="panel panel-default">
                         <div class="panel-heading">
                             <h2 class="panel-title">
-                                <a class="accordion-toggle" data-toggle="collapse" href="#collapseFour">
+                                <a data-toggle="collapse" href="#collapseFour">
                                     Fees
                                 </a>
                             </h2>
@@ -103,25 +103,54 @@ permalink: /neil/casework/
                 <h2>
                     Register
                 </h2>
-                <h3>
-                    A Register
-                </h3>
-                Description of the land and its boundaries
-                <h3>
-                    B Register
-                </h3>
-                    <ul>
-                        <li>
-                            Proprietors
-                        </li>
-                        <li>
-                            Restrictions
-                        </li>
-                    </ul>
-                <h3>
-                    C Register
-                </h3>
-                Charges
+                <ul class="nav nav-tabs">
+                    <li class="active">
+                        <a data-toggle="tab" href="#sectionA">
+                            A Register
+                        </a>
+                    </li>
+                    <li>
+                        <a data-toggle="tab" href="#sectionB">
+                            B Register
+                        </a>
+                    </li>
+                    <li>
+                        <a data-toggle="tab" href="#sectionC">
+                            C Register
+                        </a>
+                    </li>
+                </ul>
+                <div class="tab-content">
+                    <div id="sectionA" class="tab-pane fade in active">
+                        <h3>
+                            A Register
+                        </h3>
+                        <p>
+                            Description of the land and its boundaries.
+                        </p>
+                    </div>
+                    <div id="sectionB" class="tab-pane fade">
+                        <h3>
+                            B Register
+                        </h3>
+                        <ul>
+                            <li>
+                                Proprietors
+                            </li>
+                            <li>
+                                Restrictions
+                            </li>
+                        </ul>
+                    </div>
+                    <div id="sectionC" class="tab-pane fade">
+                        <h3>
+                            C Register
+                        </h3>
+                        <p>
+                            Charges
+                        </p>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
