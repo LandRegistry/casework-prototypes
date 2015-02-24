@@ -83,6 +83,38 @@
     width: 100%;
 }
 
+@media (min-width: 768px){
+  #register-old {
+    position: absolute;
+    top: 0px;
+    bottom: 0;
+    left: 0;
+    width: 50%;
+    overflow-y: scroll;
+  }
+
+  #register-new {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    width: 50%;
+    overflow-y: scroll;
+  }
+}
+
+#register-old {
+  background-color: white;
+  text-align: left;
+  height:100%;
+}
+
+#register-new {
+  height:100%;
+  background-color: white;
+  text-align: left;
+}
+
 
 /*
 * Placeholder dashboard ideas
