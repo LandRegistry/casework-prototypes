@@ -1,0 +1,43 @@
+---
+layout: work_queue_andy
+title: Current Application
+permalink: /andy/standover2/
+---
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-sm-5 col-md-4 sidebar">
+            <ul class="nav nav-sidebar">
+
+                {% include andy_register_view.html %}
+
+            </ul>
+        </div>
+        <div class="col-sm-7 col-sm-offset-5 col-md-8 col-md-offset-4 main">
+            <h1>Select standover time in days</h1>
+
+
+                <form action="{{ site.baseurl }}/andy/getwork2/">
+                    <div class="input-group col-sm-2 col-md-3">
+                        <input type="text" class="form-control" placeholder="standover time" autofocus="true">
+                    </div>
+                    <br/>
+                    <div >
+                        <input class="btn btn-lg btn-default" type="submit" value="Submit">
+                        <a href="{{ site.baseurl }}/andy/currentapp2/" class="btn btn-lg btn-warning">
+                            Cancel
+                        </a>
+                    </div>
+                </form>
+
+
+            <!--<div class="input-group col-sm-2 col-md-3">
+                <input type="text" class="form-control" placeholder="standover time">
+                    <span class="input-group-btn">
+                        <button type="submit" class="btn btn-default" type="button">Go!</button>
+                    </span>
+            </div>-->
+
+        </div>
+    </div>
+</div>
