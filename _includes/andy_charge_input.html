@@ -19,7 +19,7 @@
         <a class="accordion-toggle collapsed" data-toggle="collapse" href="#collapseBuyer">
             <div class="panel-heading appDetails appDetails-ok">
                 <h4 class="panel-title">
-                    Buyer information
+                    Borrower information
                 </h4>
             </div>
         </a>
@@ -28,24 +28,40 @@
             <div class="panel-body">
                 <table>
                     <tr>
-                        <td style="width:150px">
-                            <strong>Buyer name</strong>
+                        <td style="width:250px">
+                            <strong>Borrower name</strong>
                         </td>
-                        <td style="width:500px">
+                        <td style="width:450px">
                             <input type="text" disabled style="color:#AAAAAA" value="Barry Cheese">
                         </td>
                     </tr>
                     <tr>
                         <td>
-                            <strong>Proprietor address</strong>
+                            <strong>UK Company if applicable</strong>
                         </td>
                         <td>
-                            <input type="text" disabled style="width:100%; color:#AAAAAA" value="23 Sandwich Road, Plymouth, PL1 234">
+                            <input type="text" disabled style="color:#AAAAAA">
                         </td>
                     </tr>
                     <tr>
                         <td>
-                            <strong>Date of transfer</strong>
+                            <strong>Overseas territory if applicable</strong>
+                        </td>
+                        <td>
+                            <input type="text" disabled style="color:#AAAAAA">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <strong>UK Company number if applicable</strong>
+                        </td>
+                        <td>
+                            <input type="text" disabled style="color:#AAAAAA">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <strong>Date of charge</strong>
                         </td>
                         <td>
                             <input type="text" disabled style="color:#AAAAAA" value="25/04/2015">
@@ -71,7 +87,7 @@
             <div class="panel-body">
                 <table>
                     <tr>
-                        <td style="width:150px">
+                        <td style="width:250px">
                             <strong>Lender name</strong>
                         </td>
                         <td style="width:500px">
@@ -88,10 +104,26 @@
                     </tr>
                     <tr>
                         <td>
-                            <strong>Property value</strong>
+                            <strong>UK Company if applicable</strong>
                         </td>
                         <td>
-                            <input type="text" disabled style="color:#AAAAAA" value="£250,000">
+                            <input type="text" disabled style="color:#AAAAAA">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <strong>Overseas territory if applicable</strong>
+                        </td>
+                        <td>
+                            <input type="text" disabled style="color:#AAAAAA">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <strong>UK Company number if applicable</strong>
+                        </td>
+                        <td>
+                            <input type="text" disabled style="color:#AAAAAA">
                         </td>
                     </tr>
                 </table>
@@ -114,27 +146,11 @@
             <div class="panel-body">
                 <table>
                     <tr>
-                        <td style="width:150px">
-                            <strong>Address</strong>
+                        <td style="width:250px">
+                            <strong>Address of the property</strong>
                         </td>
                         <td style="width:500px">
-                            <input type="text" disabled style="width:100%; color:#AAAAAA" value="42 Awesome Close, Smashingtown, AW35 0ME">
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <strong>Previous owner</strong>
-                        </td>
-                        <td>
-                            <input type="text" disabled style="color:#AAAAAA" value="Edward Bacon">
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <strong>Property age</strong>
-                        </td>
-                        <td>
-                            <input type="text" style="background-color:#FFAAAA">
+                            <input type="text" style="background-color:#FFAAAA; width:100%;" value="42 Awesome Close, Smashing    town AW350ME">
                         </td>
                     </tr>
                 </table>
@@ -157,19 +173,22 @@
             <div class="panel-body">
                 <table>
                     <tr>
-                        <td style="width:150px">
-                            <strong>Charge value</strong>
+                        <td style="width:250px">
+                            <strong>Value of the charge</strong>
                         </td>
-                        <td style="width:500px">
+                        <td style="width:180px">
                             <input type="text" style="background-color:#FFAAAA">
+                        </td>
+                        <td style="width:250px">
+                            <input type="button" class="btn-xs btn-info" value="Calculate fee">
                         </td>
                     </tr>
                     <tr>
                         <td>
-                            <strong>Fee</strong>
+                            <strong>Fee applied to the charge</strong>
                         </td>
                         <td>
-                            <input type="text" style="background-color:#FFAAAA">
+                            <input type="text" style="background-color:#FFAAAA" value="£20.0">
                         </td>
                     </tr>
                 </table>
