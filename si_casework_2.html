@@ -59,7 +59,7 @@ permalink: /casework-2/
                         <a href="#step-3">
                             <label class="stepNumber">3</label>
                             <span class="stepDesc">
-                              Proprietor Details<br />
+                              Charge Details<br />
                             </span>
                         </a>
                     </li>
@@ -67,7 +67,7 @@ permalink: /casework-2/
                         <a href="#step-4">
                             <label class="stepNumber">4</label>
                             <span class="stepDesc">
-                              Charge Details<br />
+                              Evidence<br />
                             </span>
                         </a>
                     </li>
@@ -82,25 +82,74 @@ permalink: /casework-2/
                 </ul>
                 <div id="step-1">
                     <h2 class="StepTitle">Customer Details</h2>
-                    <div class="form-group">
+                    <br />
 
+                    <div class="form-group">
+                        <label for="lenderNameInput" class="col-sm-2 control-label">Lender Name</label>
+                        <div class="col-sm-10">
+                            <input type="text" class="form-control" id="lenderNameInput" value="John Smith"> <br/>
+                        </div>
+
+                        <label for="corresAddressInput" class="col-sm-2 control-label">Correspondence Address</label>
+                        <div class="col-sm-10">
+                            <input type="text" class="form-control" id="corresAddressInput" value="11 High Street, Plymchester,PC1 9ZZ">
+                        </div>
                     </div>
                 </div>
                 <div id="step-2">
                     <h2 class="StepTitle">Property Details</h2>
-                    <!-- step content -->
+                    <br />
+                    <div class="form-group">
+                        <label for="propertyAddressInput" class="col-sm-2 control-label">Property Address</label>
+                        <div class="col-sm-10">
+                            <input type="text" class="form-control" id="propertyAddressInput" value="1 High Street, Plymchester,PC1 9ZZ">
+                        </div>
+                    </div>
                 </div>
                 <div id="step-3">
-                    <h2 class="StepTitle">Proprietor Details</h2>
-                    <!-- step content -->
+                    <h2 class="StepTitle">Charge Details</h2>
+                    <br />
+                    <div class="form-group">
+                        <label for="MDRef" class="col-sm-2 control-label">MDRef</label>
+                        <div class="col-sm-10">
+                            <input type="text" class="form-control" id="MDRef" value="ABC12789Z">
+                            <br />
+                        </div>
+
+                        <label for="lenderName" class="col-sm-2 control-label">Lender Name</label>
+                        <div class="col-sm-10">
+                            <input type="text" class="form-control" id="lenderName" value="Llyods TSB">
+                            <br />
+                        </div>
+
+                        <label for="amount" class="col-sm-2 control-label">Amount</label>
+                        <div class="col-sm-10">
+                            <input type="text" class="form-control" id="amount" value="£500,000">
+                            <br />
+                        </div>
+
+                    </div>
                 </div>
                 <div id="step-4">
-                    <h2 class="StepTitle">Charge Details</h2>
-                    <!-- step content -->
+                    <h2 class="StepTitle">Evidence</h2>
+                    <a href="">Marriage Certificate</a>
                 </div>
                 <div id="step-5">
                     <h2 class="StepTitle">Fees</h2>
-                    <!-- step content -->
+                    <br />
+                    <div class="form-group">
+                        <label for="chargeAmount" class="col-sm-2 control-label">Value of the charge</label>
+                        <div class="col-sm-10">
+                            <input type="text" class="form-control" id="chargeAmount" value="£500,000">
+                            <br />
+                        </div>
+
+                        <label for="fee" class="col-sm-2 control-label">Fee</label>
+                        <div class="col-sm-10">
+                            <input type="text" class="form-control" id="fee" value="£180">
+                            <br />
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
