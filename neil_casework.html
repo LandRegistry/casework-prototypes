@@ -6,7 +6,7 @@ permalink: /neil/casework/
 
 <div class="container-fluid">
     <div class="row">
-        <div class="col-sm-3 col-md-2 sidebar">
+<!--        <div class="col-sm-3 col-md-2 sidebar">
             <ul class="nav nav-sidebar">
                 <li><a href="{{ site.baseurl }}/andy/getwork/"><i class="fa fa-inbox"></i> Get work</a></li>
                 <li class="active"><a><i class="fa fa-file-text-o"></i> Current Application<span class="sr-only">(current)</span></a></li>
@@ -15,7 +15,8 @@ permalink: /neil/casework/
                 <li><a href="{{ site.baseurl }}/andy/help/"><i class="fa fa-question-circle"></i> User Guides</a></li>
             </ul>
         </div>
-        <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
+        <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">-->
+            <div>
             <div class="col-md-6">
                 <h1>Manage case</h1>
                 <div class="panel-group" id="accordion">
@@ -35,7 +36,7 @@ permalink: /neil/casework/
                                             Title number
                                         </th>
                                         <td>
-                                            DN1
+                                            DT171533
                                         </td>
                                     </tr>
                                     <tr>
@@ -95,15 +96,17 @@ permalink: /neil/casework/
                         </div>
                     </div>
                 </div>
-                <a href="{{ site.baseurl }}/neil/getwork/">
-                    Back to casework list
-                </a>
             </div>
             <div class="col-md-6">
                 <h2>
                     Register
                 </h2>
                 <ul class="nav nav-tabs">
+                    <li>
+                        <a data-toggle="tab" href="#summary">
+                            Summary
+                        </a>
+                    </li>
                     <li class="active">
                         <a data-toggle="tab" href="#sectionA">
                             A Register
@@ -121,37 +124,150 @@ permalink: /neil/casework/
                     </li>
                 </ul>
                 <div class="tab-content">
-                    <div id="sectionA" class="tab-pane fade in active">
+                    <div id="summary" class="tab-pane fade">
+                        <h3>
+                            Summary
+                        </h3>
+                        <table class="table">
+                            <tr>
+                                <th>
+                                    Office
+                                </th>
+                                <td>
+                                    Weymouth
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>
+                                    Team
+                                </th>
+                                <td>
+                                    Team 2
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>
+                                    ABR
+                                </th>
+                                <td>
+                                    LA29E0D
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>
+                                    Estate Info
+                                </th>
+                                <td>
+                                    Absolute Freehold Estate In Land
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>
+                                    Last Application Date
+                                </th>
+                                <td>
+                                    21 Jan 2009
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>
+                                    Last Application Time
+                                </th>
+                                <td>
+                                    10:07:40
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>
+                                    Edition Date
+                                </th>
+                                <td>
+                                    21 Jan 2009
+                                </td>
+                            </tr>
+                        </table>
+                        <h4>
+                            Notes
+                        </h4>
+                        <ol>
+                            <li>
+                                The date at the beginning of an entry is the date on which the entry was made on the register.
+                            </li>
+                            <li>
+                                Symbols included in register entries do not form part of the register and are used by Land Registry for internal purposes only.
+                            </li>
+                        </ol>
+                    </div>
+                    <div id="sectionA" class="tab-pane fade">
                         <h3>
                             A Register
                         </h3>
-                        <p>
-                            Description of the land and its boundaries.
-                        </p>
+                        <h4>
+                            Property Register
+                        </h4>
+                        This register describes the land and estate comprised in the title.
+                        <h5>
+                            Poole
+                        </h5>
+                        <ol>
+                            <li>
+                                (21.01.09) The Freehold land shown edged with red on the plan of the above title filed at the Registry and being 436 Poole Road, Branksome, Poole (BH12 1DF).
+                            </li>
+                        </ol>
+                        <hr/>
+                        End of A Register.
                     </div>
                     <div id="sectionB" class="tab-pane fade">
                         <h3>
                             B Register
                         </h3>
-                        <ul>
+                        <h4>
+                            Proprietorship Register
+                        </h4>
+                        This register specifies the class of title and identifies the owner. It contains any entries that affect the right of disposal.
+                        <h5>
+                            TITLE ABSOLUTE
+                        </h5>
+                        <ol>
                             <li>
-                                Proprietor details
+                                (21.01.2009) PROPRIETOR: #FRED SMITH# and #JANE SMITH# of 23 Poppy Road, *Plymouth*.
                             </li>
-                            <li>
-                                Restrictions
-                            </li>
-                        </ul>
+                        </ol>
+                        <hr/>
+                        End of B Register.
                     </div>
-                    <div id="sectionC" class="tab-pane fade">
+                    <div id="sectionC" class="tab-pane fade in active">
                         <h3>
                             C Register
                         </h3>
+                        <h4>
+                            Charges Register
+                        </h4>
                         <p>
-                            Charges
+                            This register contains any charges and other matters that affect the land.
                         </p>
+                        <ol>
+                            <li>
+                                (21.01.2009) REGISTERED CHARGE dated 6 January 2009.
+                            </li>
+                            <li>
+                                (21.01.2009) Proprietor: #ABBEY NATIONAL PLC# (Co. Regn. No. 2294747) of Deeds Services, 101 Midsomer Boulevard, Milton Keynes MK9 1AA.
+                            </li>
+                        </ol>
+                        <hr/>
+                        End of C Register
                     </div>
                 </div>
             </div>
         </div>
     </div>
+    <a class="btn btn-default" href="{{ site.baseurl }}/neil/getwork/">
+        Back to casework list
+    </a>
+    <a class="btn btn-warning">
+        Refer case
+    </a>
+    <a class="btn btn-primary">
+        Proceed to mark off
+    </a>
 </div>
