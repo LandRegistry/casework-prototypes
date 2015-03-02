@@ -177,10 +177,7 @@
                             <strong>Value of the charge</strong>
                         </td>
                         <td style="width:180px">
-                            <input type="text" style="background-color:#FFAAAA">
-                        </td>
-                        <td style="width:250px">
-                            <input type="button" class="btn-xs btn-default" value="Calculate fee">
+                            <input type="text" style="background-color:#FFAAAA" value="£150,000">
                         </td>
                     </tr>
                     <tr>
@@ -188,7 +185,10 @@
                             <strong>Fee applied to the charge</strong>
                         </td>
                         <td>
-                            <input type="text" style="background-color:#FFAAAA" value="£20.0">
+                            <input type="text" id="feeBox" style="background-color:#FFAAAA">
+                        </td>
+                        <td style="width:250px">
+                            <input type="button" class="btn-xs btn-default" value="Calculate fee" onClick="document.getElementById('feeBox').value='£15.00'">
                         </td>
                     </tr>
                 </table>
