@@ -90,6 +90,7 @@ function SmartWizard(target, options) {
                     if(frm && frm.length){
                         frm.submit();
                     }
+                    window.location.href='../casework-1/';
                 }
             }
             return false;
@@ -464,7 +465,7 @@ function SmartWizard(target, options) {
         errorSteps:[],    // Array Steps with errors
         labelNext:'Next',
         labelPrevious:'Previous',
-        labelFinish:'Finish',
+        labelFinish:'Complete Application',
         noForwardJumping: false,
         ajaxType: "POST",
         onLeaveStep: null, // triggers when leaving a step
