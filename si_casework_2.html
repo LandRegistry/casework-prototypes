@@ -22,13 +22,14 @@ permalink: /casework-2/
         <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-1 main">
             <div class="panel panel-primary">
                 <div class="panel-heading">
-                    <h3 class="panel-title">Transaction details</h3>
+                    <h3 class="panel-title">Further Mortgage</h3>
                 </div>
                 <div class="panel-body">
                     <p>
                         On <b>25th December 2015</b>, <b>Lloyds Bank PLC of Lloyds House, London, NW1 1AA</b>, loaned money
                         to <b>John Smith</b> and <b>Julie Marie Smith</b>, secured against the property
-                        <b>1 High Street, Plymchester,PC1 9ZZ</b>, registered under title number <b>ZX89</b>
+                        <b>1 High Street, Plymchester,PC1 9ZZ</b>, registered against title number <b>ZX89</b> under MDRef
+                        <b>ACX12321</b>
                     </p>
                 </div>
             </div>
@@ -38,12 +39,13 @@ permalink: /casework-2/
     <div class="row">
         <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-1 main">
             <div id="wizard" class="swMain">
-                <ul>
+
+                <ul style="width: 870px">
                     <li>
                         <a href="#step-1">
                             <label class="stepNumber">1</label>
                             <span class="stepDesc">
-                              Customer Details<br />
+                              Proprietor Details<br />
                             </span>
                         </a>
                     </li>
@@ -55,44 +57,44 @@ permalink: /casework-2/
                             </span>
                         </a>
                     </li>
-                    <li>
+                    <!-- <li>
                         <a href="#step-3">
                             <label class="stepNumber">3</label>
                             <span class="stepDesc">
                               Charge Details<br />
                             </span>
                         </a>
-                    </li>
+                    </li> -->
                     <li>
-                        <a href="#step-4">
-                            <label class="stepNumber">4</label>
+                        <a href="#step-3">
+                            <label class="stepNumber">3</label>
                             <span class="stepDesc">
                               Evidence<br />
                             </span>
                         </a>
                     </li>
-                    <li>
+                    <!-- <li>
                         <a href="#step-5">
                             <label class="stepNumber">5</label>
                             <span class="stepDesc">
                               Fees<br />
                             </span>
                         </a>
-                    </li>
+                    </li> -->
                 </ul>
                 <div id="step-1">
-                    <h2 class="StepTitle">Customer Details</h2>
+                    <h2 class="StepTitle">Proprietor Details</h2>
                     <br />
 
                     <div class="form-group">
-                        <label for="lenderNameInput" class="col-sm-2 control-label">Lender Name</label>
+                        <label for="lenderNameInput" class="col-sm-2 control-label">Name(s)</label>
                         <div class="col-sm-10">
-                            <input type="text" class="form-control" id="lenderNameInput" value="John Smith"> <br/>
+                            <input type="text" class="form-control" id="lenderNameInput" value="John Smith and Julie Marrie Smith"> <br/>
                         </div>
 
                         <label for="corresAddressInput" class="col-sm-2 control-label">Correspondence Address</label>
                         <div class="col-sm-10">
-                            <input type="text" class="form-control" id="corresAddressInput" value="11 High Street, Plymchester,PC1 9ZZ">
+                            <input type="text" class="form-control" id="corresAddressInput" value="31 Lowe Street, Plymchester,PC2 9ZZ">
                         </div>
                     </div>
                 </div>
@@ -106,7 +108,7 @@ permalink: /casework-2/
                         </div>
                     </div>
                 </div>
-                <div id="step-3">
+                <!-- <div id="step-3">
                     <h2 class="StepTitle">Charge Details</h2>
                     <br />
                     <div class="form-group">
@@ -118,7 +120,7 @@ permalink: /casework-2/
 
                         <label for="lenderName" class="col-sm-2 control-label">Lender Name</label>
                         <div class="col-sm-10">
-                            <input type="text" class="form-control" id="lenderName" value="Llyods TSB">
+                            <input type="text" class="form-control" id="lenderName" value="Lloyds Bank PLC">
                             <br />
                         </div>
 
@@ -129,12 +131,12 @@ permalink: /casework-2/
                         </div>
 
                     </div>
-                </div>
-                <div id="step-4">
+                </div> -->
+                <div id="step-3">
                     <h2 class="StepTitle">Evidence</h2>
-                    <a href="">Marriage Certificate</a>
+                    <p>No evidence required</p>
                 </div>
-                <div id="step-5">
+                <!-- <div id="step-5">
                     <h2 class="StepTitle">Fees</h2>
                     <br />
                     <div class="form-group">
@@ -150,7 +152,7 @@ permalink: /casework-2/
                             <br />
                         </div>
                     </div>
-                </div>
+                </div> -->
             </div>
         </div>
     </div>
