@@ -6,18 +6,18 @@ permalink: /andy/incompleteapp/
 
 <div class="container-fluid">
     <div class="row">
-        <div class="col-sm-5 col-md-4 sidebar">
+        <div class="col-md-5 sidebar">
             <ul class="nav nav-sidebar">
 
                 {% include andy_register_view.html %}
 
             </ul>
         </div>
-        <div class="col-sm-7 col-sm-offset-5 col-md-8 col-md-offset-4 main">
+        <div class="col-md-7 col-md-offset-5 main">
             <!--in the future there may be different includes based on the condition of the type of
             application being processed-->
 
-            {% include andy_charge_input.html %}
+            {% include andy_charge_incomplete.html %}
 
         </div>
     </div>

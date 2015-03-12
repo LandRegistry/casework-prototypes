@@ -1,0 +1,259 @@
+---
+layout: casework
+title: Casework 2c
+permalink: /casework-v2-c/
+---
+
+<div class="container-fluid">
+
+    <div class="row">
+        <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-1 main">
+                <div class="summary">
+                    <h1>Application Summary</h1>
+
+                    <div class="panel-body">
+                        <p>Title number: DN1234</p>
+                        <p>Application Reference: Z33XXC</p>
+                        <hr/>
+
+                        <h1>Action Points</h1>
+                        <ol>
+                            <li>Check Proprietor Names</li>
+                            <li>Mark off Application</li>
+                        </ol>
+                    </div>
+                </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-1 main">
+            <ul id="tabs" class="nav nav-tabs" data-tabs="tabs">
+                <li class="active"><a href="#overview" data-toggle="tab">Task Overview</a></li>
+                <li><a href="#register" data-toggle="tab">Changes</a></li>
+                <li><a href="#evidence" data-toggle="tab">Evidence</a></li>
+                <li><a href="#fee" data-toggle="tab">Fee</a></li>
+                <li><a href="#notes" data-toggle="tab">Notes</a></li>
+            </ul>
+            <div id="my-tab-content" class="tab-content">
+                <div class="tab-pane fade in active" id="overview">
+                    <u><h2>Transaction Details</h2></u>
+                    <p>Application Type:</p>
+                    <ul>
+                        <li>Further Mortgage</li>
+                    </ul>
+                    <br/>
+
+                    <p>Applicant Name(s):
+                        <ul>
+                            <li>Walter White</li>
+                            <li><b class="bg-danger">Skylar White</b></li>
+                        </ul>
+                    </p>
+                    <br/>
+
+                    <p>Proprietor Name(s):
+                    <ul>
+                        <li>Walter White</li>
+                        <li><b class="bg-danger">Skylar Brown</b></li>
+                    </ul>
+                    </p>
+                    <br/>
+
+                    <p>Property Description:</p>
+                    <ul>
+                        <li>1 High Street, Plymchester, PC1 9ZZ</li>
+                    </ul>
+
+                    <u><h2>Charge Details</h2></u>
+                    <ul>
+                        <li>Amount: £200,000</li>
+                        <li>Charge Date: 14th June 2014</li>
+                        <li>Lender: Lloyds Bank PLC</li>
+                        <li>Lodged By: Smith and Jones Conveyancers</li>
+                    </ul>
+                </div>
+
+                <div class="tab-pane fade" id="register">
+                    <h1>Register</h1>
+
+                    <p>Indentified Issues</p>
+                    <div class="well">
+                        <p>Fix Proprietor Name(s)</p>
+                        <div class="form-group">
+                            <label for="name1" class="col-sm-2 control-label">Name 1</label>
+                            <div class="col-sm-10">
+                                <input type="text" class="form-control" id="name1" value="Walter White">
+                            </div>
+                        </div> <br/> <br/>
+                        <div class="form-group">
+                            <label for="name2" class="col-sm-2 control-label">Name 2</label>
+                            <div class="col-sm-10">
+                                <input type="text" class="form-control" id="name2" value="Skylar Brown">
+                            </div>
+                        </div>
+                        <br/>
+                        <div class="col-sm-10 pull-right">
+                            <button type="button" class="btn btn-primary">Save</button>
+                        </div>
+                        <br/>
+                        <br/>
+                    </div>
+                    <br/>
+
+                    <p>Entry to be added:</p>
+
+                    <div class="well">
+                        <p>2. (14.06.2014) REGISTERED CHARGE dated 14 June 2014</p>
+                        <p>3. (14.06.2014) Proprietor: Lloyds Bank PLC (Co. Regn. No. 22998877) of Lloyds House, London, NW1 1AA</p>
+                    </div>
+                </div>
+
+                <div class="tab-pane fade" id="evidence">
+                    <h1>Evidence</h1>
+                    <a data-toggle="modal" data-target="#marriage-cert">Marriage Certificate</a>
+
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="marriage-cert" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                        <div class="modal-dialog modal-lg">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                    <h4 class="modal-title" id="myModalLabel">Marriage Certificate</h4>
+                                </div>
+                                <div class="modal-body">
+                                    <img src="../images/marriage-certificate.jpg" alt="marriage-certificate">
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                    <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tab-pane fade" id="fee">
+                    <h1>Fee Details</h1>
+                    <div class="form-group">
+                        <label for="charge-amount" class="col-sm-2 control-label">Charge Amount</label>
+                        <div class="col-sm-10">
+                            <input type="text" class="form-control" id="charge-amount" value="£200,000">
+                        </div>
+                    </div>
+                    <br/><br/>
+                    <div class="form-group">
+                        <label for="fee-value" class="col-sm-2 control-label">Fee</label>
+                        <div class="col-sm-10">
+                            <input type="text" class="form-control" id="fee-value" value="£20">
+                        </div>
+                    </div>
+                    <br/>
+                </div>
+
+                <div class="tab-pane fade" id="notes">
+                    <h1>Notes</h1>
+
+                    <div id="notes-input-area">
+                        <textarea class="form-control" rows="5"></textarea>
+                        <br/>
+                        <button type="button" class="btn btn-primary pull-right" >Add</button>
+                        <br/>
+                        <br/>
+                    </div>
+                    <br/>
+                    <div id="previous-notes">
+
+                        <table class="table table-striped">
+                            <thead>
+                            <tr>
+                                <th>Date/Time</th>
+                                <th>User Name</th>
+                                <th>Note</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <tr>
+                                <td>12/01/2014</td>
+                                <td>CS111AB</td>
+                                <td>Added a note to check fee</td>
+                            </tr>
+                            <tr>
+                                <td>13/012/2013</td>
+                                <td>CS222BB</td>
+                                <td>Added a test note</td>
+                            </tr>
+                            <tr>
+                                <td>08/08/2013</td>
+                                <td>CS333CC</td>
+                                <td>Complete First Registration</td>
+                            </tr>
+                            </tbody>
+                        </table>
+
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-sm-9 col-sm-offset-3 col-md-9 col-md-offset-1 main pull-right">
+            <div class="button-panel" id="button-panel">
+                <div>
+                    <a href="{{ site.baseurl }}/casework-v2-a/" class="btn btn-lg btn-primary">
+                        Complete application <i class="fa fa-angle-double-right"></i>
+                    </a>
+                    <a href="{{ site.baseurl }}/casework-v2-a/" class="btn btn-lg btn-primary">
+                        Standover application <i class="fa fa-angle-double-right"></i>
+                    </a>
+                    <a href="{{ site.baseurl }}/casework-v2-a/" class="btn btn-lg btn-success">
+                        Mark Off application <i class="fa fa-angle-double-right"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+
+<style>
+    .nav-tabs > li > a,
+    .nav-tabs > li > a:hover,
+    .nav-tabs > li > a:focus{
+    color: #333;
+    background-color: #5C95C5;
+    }
+
+
+    .tab-pane {
+
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    border-radius: 0px 0px 5px 5px;
+    padding: 10px;
+    }
+
+    .nav-tabs {
+    margin-bottom: 0;
+    }
+
+    .summary  {
+    background-color: #005EA5;
+    color: white;
+    padding: 0 15px 0 15px;
+
+    }
+
+    .button-panel {
+    padding: 10px;
+
+    }
+
+
+</style>
