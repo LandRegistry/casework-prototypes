@@ -1,0 +1,89 @@
+<div role="tabpanel">
+    <ul class="nav nav-tabs" role="tablist">
+        <li role="presentation" class="active"><a href="#evidence" aria-controls="evidence" role="tab"
+                                                  data-toggle="tab">Evidence</a></li>
+        <li role="presentation"><a href="#pa" aria-controls="ev3" role="tab" data-toggle="tab">Points arising</a></li>
+    </ul>
+    <div class="tab-content">
+
+        <div role="tabpanel" class="tab-pane fade in active" id="evidence" style="padding-left:5px; padding-right:5px">
+            <h4>Click images to enlarge</h4>
+            <table>
+                <tr style="height:60px">
+                    <td style="width:200px">
+                        Driving license
+                    </td>
+                    <td>
+                        <a href="{{ site.baseurl }}/images/ev1.jpg" target="_blank">
+                            <img src="{{ site.baseurl }}/images/ev1.jpg" style="height:50px">
+                        </a>
+                    </td>
+                </tr>
+                <tr style="height:60px">
+
+                    <td>
+                        Marriage certificate
+                    </td>
+                    <td>
+                        <a href="{{ site.baseurl }}/images/ev2.jpg" target="_blank">
+                            <img src="{{ site.baseurl }}/images/ev2.jpg" style="height:50px">
+                        </a>
+                    </td>
+                </tr>
+                <tr style="height:60px">
+
+                    <td>
+                        Passport
+                    </td>
+                    <td>
+                        <a href="{{ site.baseurl }}/images/ev3.jpg" target="_blank">
+                            <img src="{{ site.baseurl }}/images/ev3.jpg" style="height:50px">
+                        </a>
+                    </td>
+                </tr>
+            </table>
+        </div>
+
+        <div role="tabpanel" class="tab-pane fade" id="pa" style="padding-left:5px; padding-right:5px">
+            <br/>
+            <table style="width:100%">
+                <tr>
+                    <td >
+                        Point arising history
+                    </td>
+                </tr>
+                <tr>
+                    <td >
+                        <textarea disabled style="width:100%; height:400px; border:1px solid #999999">{% include points_arising.txt %}</textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Enter new comments
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="text" class="form-control" autofocus="true"
+                               style="width:100%; border:1px solid #999999">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+
+                        <div>
+                            <h2>
+                                <a href="#" class="btn btn-lg btn-default">
+                                    Submit notes <i class="fa fa-angle-double-right"></i>
+                                </a>
+                            </h2>
+                        </div>
+
+                    </td>
+                </tr>
+            </table>
+
+        </div>
+    </div>
+</div>
+
