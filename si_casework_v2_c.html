@@ -1,28 +1,28 @@
 ---
 layout: casework
-title: Casework 2b
-permalink: /casework-v2-b/
+title: Casework 2c
+permalink: /casework-v2-c/
 ---
 
 <div class="container-fluid">
 
     <div class="row">
         <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-1 main">
-            <div class="summary">
-                <h1>Application Summary</h1>
+                <div class="summary">
+                    <h1>Application Summary</h1>
 
-                <div class="panel-body">
-                    <p>Title number: DN1234</p>
-                    <p>Application Reference: Z33XXC</p>
-                    <hr/>
+                    <div class="panel-body">
+                        <p>Title number: DN1234</p>
+                        <p>Application Reference: Z33XXC</p>
+                        <hr/>
 
-                    <h1>Action Points</h1>
-                    <ul>
-                        <li>Mark off application</li>
-                    </ul>
+                        <h1>Action Points</h1>
+                        <ol>
+                            <li>Check Proprietor Names</li>
+                            <li>Mark off Application</li>
+                        </ol>
+                    </div>
                 </div>
-            </div>
-
         </div>
     </div>
 
@@ -44,16 +44,21 @@ permalink: /casework-v2-b/
                     </ul>
                     <br/>
 
-
-
-                    <p>Proprietor Name(s):
+                    <p>Applicant Name(s):
                         <ul>
                             <li>Walter White</li>
-                            <li>Skylar White</li>
+                            <li><b class="bg-danger">Skylar White</b></li>
                         </ul>
                     </p>
                     <br/>
 
+                    <p>Proprietor Name(s):
+                    <ul>
+                        <li>Walter White</li>
+                        <li><b class="bg-danger">Skylar Brown</b></li>
+                    </ul>
+                    </p>
+                    <br/>
 
                     <p>Property Description:</p>
                     <ul>
@@ -72,6 +77,29 @@ permalink: /casework-v2-b/
                 <div class="tab-pane fade" id="register">
                     <h1>Register</h1>
 
+                    <p>Indentified Issues</p>
+                    <div class="well">
+                        <p>Fix Proprietor Name(s)</p>
+                        <div class="form-group">
+                            <label for="name1" class="col-sm-2 control-label">Name 1</label>
+                            <div class="col-sm-10">
+                                <input type="text" class="form-control" id="name1" value="Walter White">
+                            </div>
+                        </div> <br/> <br/>
+                        <div class="form-group">
+                            <label for="name2" class="col-sm-2 control-label">Name 2</label>
+                            <div class="col-sm-10">
+                                <input type="text" class="form-control" id="name2" value="Skylar Brown">
+                            </div>
+                        </div>
+                        <br/>
+                        <div class="col-sm-10 pull-right">
+                            <button type="button" class="btn btn-primary">Save</button>
+                        </div>
+                        <br/>
+                        <br/>
+                    </div>
+                    <br/>
 
                     <p>Entry to be added:</p>
 
@@ -83,7 +111,27 @@ permalink: /casework-v2-b/
 
                 <div class="tab-pane fade" id="evidence">
                     <h1>Evidence</h1>
-                    <p>No evidence required to check</p>
+                    <a data-toggle="modal" data-target="#marriage-cert">Marriage Certificate</a>
+
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="marriage-cert" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                        <div class="modal-dialog modal-lg">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                    <h4 class="modal-title" id="myModalLabel">Marriage Certificate</h4>
+                                </div>
+                                <div class="modal-body">
+                                    <img src="../images/marriage-certificate.jpg" alt="marriage-certificate">
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                    <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
 
                 <div class="tab-pane fade" id="fee">
