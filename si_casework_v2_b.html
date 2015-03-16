@@ -9,20 +9,19 @@ permalink: /casework-v2-b/
     <div class="row">
         <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-1 main">
             <div class="summary">
-                <h1>Application Summary</h1>
+                <!-- <h1>Application Summary</h1> -->
 
                 <div class="panel-body">
-                    <p>Title number: DN1234</p>
-                    <p>Application Reference: Z33XXC</p>
+                    <h3>Title number: DN1234</h3>
+                    <h3>Application Reference: Z33XXC</h3>
                     <hr/>
 
                     <h1>Action Points</h1>
-                    <ul>
-                        <li>Mark off application</li>
-                    </ul>
+                    <ol>
+                        <li><h4>Mark off Application</h4></li>
+                    </ol>
                 </div>
             </div>
-
         </div>
     </div>
 
@@ -30,79 +29,87 @@ permalink: /casework-v2-b/
         <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-1 main">
             <ul id="tabs" class="nav nav-tabs" data-tabs="tabs">
                 <li class="active"><a href="#overview" data-toggle="tab">Task Overview</a></li>
-                <li><a href="#register" data-toggle="tab">Changes</a></li>
-                <li><a href="#evidence" data-toggle="tab">Evidence</a></li>
-                <li><a href="#fee" data-toggle="tab">Fee</a></li>
+                <li><a href="#evidence" data-toggle="tab" id="evidence-tab">Evidence</a></li>
                 <li><a href="#notes" data-toggle="tab">Notes</a></li>
             </ul>
             <div id="my-tab-content" class="tab-content">
                 <div class="tab-pane fade in active" id="overview">
-                    <u><h2>Transaction Details</h2></u>
-                    <p>Application Type:</p>
-                    <ul>
-                        <li>Further Mortgage</li>
-                    </ul>
+                    <u><h3>Transaction Details</h3></u>
+                    <br/>
+                    <div class="row">
+                        <div class="col-md-4"><b>Application Type:</b></div>
+                        <div class="col-md-6">Further Mortgage</div>
+                    </div>
                     <br/>
 
-
-
-                    <p>Proprietor Name(s):
-                        <ul>
-                            <li>Walter White</li>
-                            <li>Skylar White</li>
-                        </ul>
-                    </p>
+                    <div class="row">
+                        <div class="col-md-4"><b>Property Description:</b></div>
+                        <div class="col-md-6">1 High Street, Plymchester, PC1 9ZZ</div>
+                    </div>
                     <br/>
 
+                    <div class="row">
+                        <div class="col-md-4"><b>Borrower Name(s):</b></div>
+                        <div class="col-md-6">
+                            <p>Walter White</p>
+                            <p>Skylar White</p>
+                        </div>
 
-                    <p>Property Description:</p>
-                    <ul>
-                        <li>1 High Street, Plymchester, PC1 9ZZ</li>
-                    </ul>
+                    </div>
+                    <br/>
 
-                    <u><h2>Charge Details</h2></u>
-                    <ul>
-                        <li>Amount: £200,000</li>
-                        <li>Charge Date: 14th June 2014</li>
-                        <li>Lender: Lloyds Bank PLC</li>
-                        <li>Lodged By: Smith and Jones Conveyancers</li>
-                    </ul>
-                </div>
+                    <div class="row">
+                        <div class="col-md-4"><b>Lender Name:</b></div>
+                        <div class="col-md-6">Lloyds Bank PLC</div>
+                    </div>
+                    <br/>
 
-                <div class="tab-pane fade" id="register">
-                    <h1>Register</h1>
+                    <div class="row">
+                        <div class="col-md-4"><b>Date:</b></div>
+                        <div class="col-md-6">14th June 2014</div>
+                    </div>
+                    <br/>
 
+                    <div class="row">
+                        <div class="col-md-4"><b>Lodged By:</b></div>
+                        <div class="col-md-6">Saul Goodman Associates</div>
+                    </div>
+                    <br/>
 
-                    <p>Entry to be added:</p>
+                    <div class="row">
+                        <div class="col-md-4"><b>Amount:</b></div>
+                        <div class="col-md-6">£200,000</div>
+                    </div>
+                    <br/>
+
+                    <div class="row">
+                        <div class="col-md-4"><b>Fee:</b></div>
+                        <div class="col-md-2">
+                            <input type="text" class="form-control" id="fee-value" value="£20">
+                        </div>
+                        <div class="col-md-4">
+                            <a href="#" class="btn btn-primary">Calculate Fee</a>
+                        </div>
+                    </div>
+                    <br/>
+
+                    <u><h3>Action Points</h3></u>
+                    <br/>
 
                     <div class="well">
-                        <p>2. (14.06.2014) REGISTERED CHARGE dated 14 June 2014</p>
-                        <p>3. (14.06.2014) Proprietor: Lloyds Bank PLC (Co. Regn. No. 22998877) of Lloyds House, London, NW1 1AA</p>
+                        <p class="lead">Mark off application</p>
+                        <br/>
                     </div>
+                    <br/>
+
                 </div>
 
                 <div class="tab-pane fade" id="evidence">
                     <h1>Evidence</h1>
-                    <p>No evidence required to check</p>
+                    <p>No evidence required</p>
+
                 </div>
 
-                <div class="tab-pane fade" id="fee">
-                    <h1>Fee Details</h1>
-                    <div class="form-group">
-                        <label for="charge-amount" class="col-sm-2 control-label">Charge Amount</label>
-                        <div class="col-sm-10">
-                            <input type="text" class="form-control" id="charge-amount" value="£200,000">
-                        </div>
-                    </div>
-                    <br/><br/>
-                    <div class="form-group">
-                        <label for="fee-value" class="col-sm-2 control-label">Fee</label>
-                        <div class="col-sm-10">
-                            <input type="text" class="form-control" id="fee-value" value="£20">
-                        </div>
-                    </div>
-                    <br/>
-                </div>
 
                 <div class="tab-pane fade" id="notes">
                     <h1>Notes</h1>
@@ -156,13 +163,16 @@ permalink: /casework-v2-b/
         <div class="col-sm-9 col-sm-offset-3 col-md-9 col-md-offset-1 main pull-right">
             <div class="button-panel" id="button-panel">
                 <div>
-                    <a href="{{ site.baseurl }}/casework-v2-a/" class="btn btn-lg btn-primary">
+                    <a href="{{ site.baseurl }}/casework-v2-a/" class="btn btn-danger">
+                        Cancel
+                    </a>
+                    <a href="{{ site.baseurl }}/casework-v2-a/" class="btn btn-primary">
                         Complete application <i class="fa fa-angle-double-right"></i>
                     </a>
-                    <a href="{{ site.baseurl }}/casework-v2-a/" class="btn btn-lg btn-primary">
+                    <a href="{{ site.baseurl }}/casework-v2-a/" class="btn btn-primary">
                         Standover application <i class="fa fa-angle-double-right"></i>
                     </a>
-                    <a href="{{ site.baseurl }}/casework-v2-a/" class="btn btn-lg btn-success">
+                    <a data-toggle="modal" data-target="#summary" class="btn btn-success">
                         Mark Off application <i class="fa fa-angle-double-right"></i>
                     </a>
                 </div>
@@ -170,6 +180,42 @@ permalink: /casework-v2-b/
         </div>
     </div>
 
+    <div class="modal fade" id="summary" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="myModalLabel2">Summary</h4>
+                </div>
+                <div class="modal-body">
+
+                    <p>Amended entries:</p>
+
+                    <div class="well">
+                        <p>Proprietorship Register</p>
+                        <p>1. (08.08.2013) PROPRIETOR: Walter White and Skylar White of 1 High Street, Plymchester, PC1 9ZZ</p>
+                    </div>
+
+                    <p>Entry to be added:</p>
+
+                    <div class="well">
+                        <p>Charges Register</p>
+                        <p>2. (14.06.2014) REGISTERED CHARGE dated 14 June 2014</p>
+                        <p>3. (14.06.2014) Proprietor: Lloyds Bank PLC (Co. Regn. No. 22998877) of Lloyds House, London, NW1 1AA</p>
+                    </div>
+
+
+
+                </div>
+                <div class="modal-footer">
+                    <a class="btn btn-lg btn-warning" data-dismiss="modal">Cancel</a>
+                    <a href="{{ site.baseurl }}/casework-v2-a/" class="btn btn-lg btn-success">
+                        Accept
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
 
 
@@ -178,7 +224,7 @@ permalink: /casework-v2-b/
     .nav-tabs > li > a:hover,
     .nav-tabs > li > a:focus{
     color: #333;
-    background-color: #5C95C5;
+    background-color: #ddd;
     }
 
 
@@ -209,3 +255,16 @@ permalink: /casework-v2-b/
 
 
 </style>
+<script>
+
+    function showEvidence() {
+        document.getElementById('evidence-tab').click();
+    }
+
+    function saveNote() {
+        document.getElementById('name2').disabled = 'disabled';
+        $('#save-button').text('Saved');
+
+    }
+
+</script>
