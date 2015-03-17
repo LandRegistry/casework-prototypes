@@ -1,0 +1,753 @@
+{
+  "sig": "KMJ8nK4L-MoLdMdaLIQO5p_GLJIWnNhoT0jBF71Q6kikaSijIQQywOV5uqbjTroWPOH1YPN7szT7Nqnaoq9xEWQGR56fbnmwjn7hHNI8d2k_Aq-jlo6-H4yY1MUyIBnjI6OnX8VdZk_FL_iuPkqKaULKFd9oqe5OrCqp72qGvFvPNKdqdgk3JyOIWEj91j58Vp2m5XqwS_mC5h9tUW1nuviqA_8K_IokuuUI_bK06KdnJwlB7kcAd38glOoL-dPSi6YxfTzfay7IpsSFCcvQgEp_ZvIJ4xXik2acW9djgZMcMTaJXuW4OiKp9aNsNiJSZHwIUS_lu68S44GWZShd0w",
+  "data": {
+    "districts": [
+      "BRACKNELL FOREST"
+    ],
+    "application_reference": "FA7BFA5",
+    "tenure": "Leasehold",
+    "class": "Absolute",
+    "title_number": "BK507813",
+    "groups": [
+      {
+        "entries": [
+          {
+            "entry_date": "2004-04-21",
+            "status": "Current",
+            "sub_register": "A",
+            "language": "ENG",
+            "full_text": "The Leasehold land shown edged with red on the plan of the above title filed at the Registry and being 51 Oaklands Way, Basingstoke.\r\rNOTE 1: As to the land tinted pink only the ground and first floors are included.\r\rNOTE 2: As to the land tinted yellow only the first and second floors are included.\r\rNOTE 3: As to the land tinted blue only the ground, first and second floors are included.",
+            "sequence_number": 1,
+            "entry_id": "2014-07-01 17:15:03.842425",
+            "infills": [
+              {
+                "type": "Address",
+                "address": {
+                  "address_string": "51 Oaklands Way, Basingstoke",
+                  "auto_uppercase_override": true
+                }
+              }
+            ],
+            "category": "PROPERTY",
+            "notes": [
+              {
+                "text": "As to the land tinted pink only the ground and first floors are included\r"
+              },
+              {
+                "text": "As to the land tinted yellow only the first and second floors are included\r"
+              },
+              {
+                "text": "As to the land tinted blue only the ground, first and second floors are included"
+              }
+            ],
+            "role_code": "RDES",
+            "template_text": "The Leasehold land shown edged with red on the plan of the above title filed at the Registry and being *AD*"
+          }
+        ],
+        "category": "PROPERTY"
+      },
+      {
+        "entries": [
+          {
+            "entry_id": "2014-07-01 17:15:04.645785",
+            "sub_register": "A",
+            "entry_date": "2004-04-21",
+            "status": "Current",
+            "category": "DEED",
+            "language": "ENG",
+            "full_text": "The land has the benefit of the rights granted by but is subject to the rights reserved by the Transfer dated 29 March 1996 referred to in the Charges Register.",
+            "sequence_number": 2,
+            "role_code": "DAEA",
+            "deeds": [
+              {
+                "date": "1996-03-29",
+                "id": "2014-07-01 17:15:04.676785",
+                "description": "Transfer"
+              }
+            ],
+            "template_text": "The land has the benefit of the rights granted by but is subject to the rights reserved by the *DT* dated *DD* referred to in the Charges Register"
+          }
+        ],
+        "category": "DEED",
+        "group_id": "2014-07-01 17:15:04.676785"
+      },
+      {
+        "entries": [
+          {
+            "entry_date": "2004-04-21",
+            "status": "Current",
+            "sub_register": "A",
+            "language": "ENG",
+            "draft_entry_code": "AE010",
+            "full_text": "The land has the benefit of the rights granted by but is subject to the rights reserved by the Transfer dated 23 August 1999 referred to in the Charges Register.",
+            "draft_entry_version": 1,
+            "sequence_number": 3,
+            "entry_id": "2014-07-01 17:15:04.696855",
+            "infills": [
+              {
+                "type": "EXTENT"
+              },
+              {
+                "type": "EXTENT"
+              }
+            ],
+            "category": "DEED",
+            "role_code": "DAEA",
+            "deeds": [
+              {
+                "date": "1999-08-23",
+                "id": "2014-07-01 17:15:04.454585",
+                "description": "Transfer",
+                "parties": [
+                  {
+                    "names": [
+                      {
+                        "auto_uppercase_override": true,
+                        "non_private_individual_name": "Bovis Homes Ltd"
+                      }
+                    ],
+                    "party_role_description": "Vendor"
+                  },
+                  {
+                    "names": [
+                      {
+                        "auto_uppercase_override": true,
+                        "surname": "Jones",
+                        "forename": "Nigel"
+                      }
+                    ],
+                    "party_role_description": "Purchaser"
+                  }
+                ]
+              }
+            ],
+            "template_text": "The land *E<>E* has the benefit of the rights granted by but is subject to the rights reserved by the *DT**DE* dated *DD* referred to in the Charges Register."
+          },
+          {
+            "entry_date": "2004-04-21",
+            "status": "Current",
+            "sub_register": "A",
+            "language": "ENG",
+            "draft_entry_code": "AE232",
+            "full_text": "The Transfer dated 23 August 1999 referred to above contains provisions as to light or air and boundary structures.",
+            "draft_entry_version": 1,
+            "sequence_number": 4,
+            "entry_id": "2014-07-01 17:15:04.718805",
+            "infills": [
+              {
+                "type": "EXTENT"
+              }
+            ],
+            "category": "DEED",
+            "role_code": "DPRO",
+            "deeds": [
+              {
+                "date": "1999-08-23",
+                "id": "2014-07-01 17:15:04.454585",
+                "description": "Transfer",
+                "parties": [
+                  {
+                    "names": [
+                      {
+                        "auto_uppercase_override": true,
+                        "non_private_individual_name": "Bovis Homes Ltd"
+                      }
+                    ],
+                    "party_role_description": "Vendor"
+                  },
+                  {
+                    "names": [
+                      {
+                        "auto_uppercase_override": true,
+                        "surname": "Jones",
+                        "forename": "Nigel"
+                      }
+                    ],
+                    "party_role_description": "Purchaser"
+                  }
+                ]
+              }
+            ],
+            "template_text": "The *DT**DE* dated *DD* referred to above contains provisions as to light or air and boundary structures."
+          },
+          {
+            "entry_date": "2004-04-21",
+            "status": "Current",
+            "sub_register": "C",
+            "language": "ENG",
+            "draft_entry_code": "CR724",
+            "full_text": "A Transfer of the land in this title dated 23 August 1999 made between (1) Bovis Homes Ltd (Vendor) and (2) Nigel Jones (Purchaser) contains restrictive covenants.\r\r¬NOTE: Copy filed.",
+            "draft_entry_version": 2,
+            "sequence_number": 4,
+            "entry_id": "2014-07-01 17:15:04.437995",
+            "infills": [
+              {
+                "type": "EXTENT",
+                "text": "of the land in this title"
+              }
+            ],
+            "category": "DEED",
+            "notes": [
+              {
+                "font": "I",
+                "text": "Copy filed"
+              }
+            ],
+            "role_code": "DCOV",
+            "deeds": [
+              {
+                "date": "1999-08-23",
+                "id": "2014-07-01 17:15:04.454585",
+                "description": "Transfer",
+                "parties": [
+                  {
+                    "names": [
+                      {
+                        "auto_uppercase_override": true,
+                        "non_private_individual_name": "Bovis Homes Ltd"
+                      }
+                    ],
+                    "party_role_description": "Vendor"
+                  },
+                  {
+                    "names": [
+                      {
+                        "auto_uppercase_override": true,
+                        "surname": "Jones",
+                        "forename": "Nigel"
+                      }
+                    ],
+                    "party_role_description": "Purchaser"
+                  }
+                ]
+              }
+            ],
+            "template_text": "A *DT**DE* dated *DD* made between *DP* contains restrictive covenants.\r\r*N<¬NOTE: Copy filed>N*."
+          }
+        ],
+        "category": "DEED",
+        "group_id": "2014-07-01 17:15:04.454585"
+      },
+      {
+        "entries": [
+          {
+            "entry_id": "2014-07-01 17:15:04.748635",
+            "sub_register": "A",
+            "entry_date": "2004-04-21",
+            "status": "Current",
+            "category": "DEED",
+            "language": "ENG",
+            "full_text": "The land has the benefit of the following rights reserved by the Transfer dated 28 March 2002 referred to in the Charges Register:-\r\r\"13.5 Exceptions and reservations\r\rThe Property is transferred subject to the following exceptions and reservations for the benefit of the Transferor and those authorised by it and of the Retained Land:-\r\r13.5.1 the right to the free passage of water, soil, gas, electricity and telecommunications to and from the Retained Land through the Conduits in, upon or under the Property;\r\r13.5.2 the right at all reasonable times (save in an emergency) to enter the Property for the purpose of repairing, maintaining, cleaning or renewing or disconnecting any Conduits which serve the Retained Land causing as little disturbance as reasonably practicable and making good any damage caused to the Property as soon as reasonably practicable;\r\r13.5.3 the right of support and protection from the Property;\r\r13.5.4 the right at any time within the Perpetuity Period to erect or permit to be erected or altered any building or structure on the Retained Land notwithstanding any obstruction or interference with the passage and access of light and air to any building which is or may be erected upon the Property.\"",
+            "sequence_number": 5,
+            "role_code": "DAEA",
+            "deeds": [
+              {
+                "date": "2002-03-28",
+                "id": "2014-07-01 17:15:04.759375",
+                "description": "Transfer"
+              }
+            ],
+            "template_text": "The land has the benefit of the following rights reserved by the *DT* dated *DD* referred to in the Charges Register:-\r\r\"13.5 Exceptions and reservations\r\rThe Property is transferred subject to the following exceptions and reservations for the benefit of the Transferor and those authorised by it and of the Retained Land:-\r\r13.5.1 the right to the free passage of water, soil, gas, electricity and telecommunications to and from the Retained Land through the Conduits in, upon or under the Property;\r\r13.5.2 the right at all reasonable times (save in an emergency) to enter the Property for the purpose of repairing, maintaining, cleaning or renewing or disconnecting any Conduits which serve the Retained Land causing as little disturbance as reasonably practicable and making good any damage caused to the Property as soon as reasonably practicable;\r\r13.5.3 the right of support and protection from the Property;\r\r13.5.4 the right at any time within the Perpetuity Period to erect or permit to be erected or altered any building or structure on the Retained Land notwithstanding any obstruction or interference with the passage and access of light and air to any building which is or may be erected upon the Property.\""
+          }
+        ],
+        "category": "DEED",
+        "group_id": "2014-07-01 17:15:04.759375"
+      },
+      {
+        "entries": [
+          {
+            "entry_id": "2014-07-01 17:15:04.790025",
+            "sub_register": "A",
+            "entry_date": "2004-04-21",
+            "status": "Current",
+            "category": "DEED",
+            "language": "ENG",
+            "full_text": "Short particulars of the lease(s) (or under-lease(s)) under which the land is held:\rDate        : 19 March 2004                                              \rTerm        : 99 years from 21 July 1953                                 \rParties     : (1) Garfield Sobers (Lessor)                               \r              (2) Brian Johnson and Boris Johnson (Lessees)",
+            "sequence_number": 6,
+            "role_code": "RSLP",
+            "deeds": [
+              {
+                "date": "2004-03-19",
+                "id": "2014-07-01 17:15:04.792805",
+                "lease_term": "99 years from 21 July 1953",
+                "description": "Lease",
+                "parties": [
+                  {
+                    "names": [
+                      {
+                        "auto_uppercase_override": true,
+                        "surname": "Sobers",
+                        "forename": "Garfield"
+                      }
+                    ],
+                    "party_role_description": "Lessor"
+                  },
+                  {
+                    "names": [
+                      {
+                        "auto_uppercase_override": true,
+                        "surname": "Johnson",
+                        "forename": "Brian"
+                      },
+                      {
+                        "auto_uppercase_override": true,
+                        "surname": "Johnson",
+                        "forename": "Boris"
+                      }
+                    ],
+                    "party_role_description": "Lessees"
+                  }
+                ]
+              }
+            ],
+            "schedule": {
+              "parent_register": "A",
+              "fields": [
+                {
+                  "header": "",
+                  "text": "Short particulars of the lease(s) (or under-lease(s)) under which the land is held:"
+                },
+                {
+                  "header": "Date",
+                  "text": "2004-03-19"
+                },
+                {
+                  "header": "Term",
+                  "text": "99 years from 21 July 1953"
+                },
+                {
+                  "header": "Parties",
+                  "parties": [
+                    {
+                      "names": [
+                        {
+                          "auto_uppercase_override": true,
+                          "surname": "Sobers",
+                          "forename": "Garfield"
+                        }
+                      ],
+                      "party_role_description": "Lessor"
+                    },
+                    {
+                      "names": [
+                        {
+                          "auto_uppercase_override": true,
+                          "surname": "Johnson",
+                          "forename": "Brian"
+                        },
+                        {
+                          "auto_uppercase_override": true,
+                          "surname": "Johnson",
+                          "forename": "Boris"
+                        }
+                      ],
+                      "party_role_description": "Lessees"
+                    }
+                  ]
+                }
+              ],
+              "schedule_type": "H",
+              "header": ""
+            }
+          },
+          {
+            "entry_date": "2004-04-21",
+            "status": "Current",
+            "sub_register": "A",
+            "language": "ENG",
+            "draft_entry_code": "AG100",
+            "full_text": "There are excepted from the effect of registration all estates, rights, interests, powers and remedies arising upon, or by reason of, any dealing made in breach of the prohibition or restriction against dealings therewith inter vivos contained in the Lease.",
+            "draft_entry_version": 1,
+            "sequence_number": 7,
+            "entry_id": "2014-07-01 17:15:04.806205",
+            "category": "DEED",
+            "role_code": "RALI",
+            "deeds": [
+              {
+                "date": "2004-03-19",
+                "id": "2014-07-01 17:15:04.792805",
+                "lease_term": "99 years from 21 July 1953",
+                "description": "Lease",
+                "parties": [
+                  {
+                    "names": [
+                      {
+                        "auto_uppercase_override": true,
+                        "surname": "Sobers",
+                        "forename": "Garfield"
+                      }
+                    ],
+                    "party_role_description": "Lessor"
+                  },
+                  {
+                    "names": [
+                      {
+                        "auto_uppercase_override": true,
+                        "surname": "Johnson",
+                        "forename": "Brian"
+                      },
+                      {
+                        "auto_uppercase_override": true,
+                        "surname": "Johnson",
+                        "forename": "Boris"
+                      }
+                    ],
+                    "party_role_description": "Lessees"
+                  }
+                ]
+              }
+            ],
+            "template_text": "There are excepted from the effect of registration all estates, rights, interests, powers and remedies arising upon, or by reason of, any dealing made in breach of the prohibition or restriction against dealings therewith inter vivos contained in the Lease."
+          }
+        ],
+        "category": "DEED",
+        "group_id": "2014-07-01 17:15:04.792805"
+      },
+      {
+        "entries": [
+          {
+            "entry_date": "2004-04-21",
+            "status": "Current",
+            "sub_register": "A",
+            "language": "ENG",
+            "draft_entry_code": "AG525",
+            "full_text": "The lessor's title is registered.",
+            "draft_entry_version": 1,
+            "sequence_number": 8,
+            "entry_id": "2014-07-01 17:15:04.815925",
+            "category": "REGISTER",
+            "role_code": "RLET",
+            "template_text": "The lessor's title is registered."
+          },
+          {
+            "entry_date": "2004-04-21",
+            "status": "Current",
+            "sub_register": "C",
+            "language": "ENG",
+            "draft_entry_code": "CF676",
+            "full_text": "The land is subject to rights of drainage and rights in respect of water, gas and electricity supply services.",
+            "draft_entry_version": 1,
+            "sequence_number": 1,
+            "entry_id": "2014-07-01 17:15:04.170355",
+            "category": "REGISTER",
+            "role_code": "RCEA",
+            "template_text": "The land is subject to rights of drainage and rights in respect of water, gas and electricity supply services."
+          }
+        ],
+        "category": "REGISTER"
+      },
+      {
+        "entries": [
+          {
+            "entry_id": "2014-07-01 17:15:03.966675",
+            "sub_register": "B",
+            "entry_date": "2004-04-21",
+            "status": "Current",
+            "infills": [
+              {
+                "type": "Proprietor",
+                "proprietors": [
+                  {
+                    "addresses": [
+                      {
+                        "postal_county": "Berks",
+                        "address_string": "51 Oaklands Way, Basingstoke, Berks",
+                        "address_type": "UK",
+                        "auto_uppercase_override": true
+                      },
+                      {
+                        "address_string": "217, Duninnings Drive, Lyons, France",
+                        "address_type": "FOREIGN",
+                        "auto_uppercase_override": true,
+                        "country": "250"
+                      },
+                      {
+                        "address_string": "DX281, London/Chancery Lane",
+                        "address_type": "DX",
+                        "auto_uppercase_override": true
+                      }
+                    ],
+                    "name": {
+                      "surname": "JOHNSON",
+                      "auto_uppercase_override": true,
+                      "name_category": "PRIVATE INDIVIDUAL",
+                      "forename": "BRIAN"
+                    }
+                  },
+                  {
+                    "addresses": [
+                      {
+                        "postal_county": "London",
+                        "address_string": "67 Spectator Row, London",
+                        "address_type": "UK",
+                        "auto_uppercase_override": true
+                      },
+                      {
+                        "address_string": "51 Oaklands Way, Basingstoke, Berks",
+                        "address_type": "UNKNOWN",
+                        "care_of": true,
+                        "auto_uppercase_override": true
+                      },
+                      {
+                        "postal_county": "Berks",
+                        "address_string": "bicycle.boris@freedom.com",
+                        "address_type": "ELECTRONIC",
+                        "email_address": "bicycle.boris@freedom.com",
+                        "auto_uppercase_override": true
+                      }
+                    ],
+                    "name": {
+                      "surname": "JOHNSON",
+                      "auto_uppercase_override": true,
+                      "name_category": "PRIVATE INDIVIDUAL",
+                      "forename": "BORIS"
+                    }
+                  }
+                ]
+              }
+            ],
+            "language": "ENG",
+            "full_text": "PROPRIETOR: %BRIAN JOHNSON% of 51 Oaklands Way, Basingstoke, *Berks* and of 217, Duninnings Drive, Lyons, <France< and of DX281, London/Chancery Lane and %BORIS JOHNSON% of 67 Spectator Row, *London* and *care of* 51 Oaklands Way, Basingstoke, Berks and of {bicycle.boris@freedom.com{.",
+            "category": "OWNERSHIP",
+            "role_code": "RPRO",
+            "sequence_number": 1,
+            "template_text": "PROPRIETOR: *RP*"
+          },
+          {
+            "entry_date": "2004-04-21",
+            "status": "Current",
+            "sub_register": "B",
+            "language": "ENG",
+            "draft_entry_code": "BK863",
+            "full_text": "The price, other than rents, stated to have been paid on the grant of the lease was £427,000.",
+            "draft_entry_version": 1,
+            "sequence_number": 2,
+            "entry_id": "2014-07-01 17:15:04.838145",
+            "infills": [
+              {
+                "type": "PRICE",
+                "text": "£427,000"
+              }
+            ],
+            "category": "OWNERSHIP",
+            "role_code": "RPPD",
+            "template_text": "The price, other than rents, stated to have been paid on the grant of the lease was *AM*."
+          },
+          {
+            "entry_date": "2004-04-21",
+            "status": "Current",
+            "sub_register": "B",
+            "language": "ENG",
+            "draft_entry_code": "BX900",
+            "full_text": "RESTRICTION: No disposition by a sole proprietor of the registered estate (except a trust corporation) under which capital money arises is to be registered unless authorised by an order of the court.",
+            "draft_entry_version": 1,
+            "sequence_number": 3,
+            "entry_id": "2014-07-01 17:15:04.857425",
+            "category": "OWNERSHIP",
+            "role_code": "OJPR",
+            "template_text": "RESTRICTION: No disposition by a sole proprietor of the registered estate (except a trust corporation) under which capital money arises is to be registered unless authorised by an order of the court."
+          }
+        ],
+        "category": "OWNERSHIP"
+      },
+      {
+        "entries": [
+          {
+            "entry_id": "2014-07-01 17:15:04.240875",
+            "sub_register": "C",
+            "entry_date": "2004-04-21",
+            "status": "Current",
+            "category": "DEED",
+            "language": "ENG",
+            "full_text": "A Deed dated 9 December 1969 made between (1) Secretary of State for Social Services (the Grantor) and (2) South Eastern Gas Board (the Board) contains covenants details of which are set out in the schedule of restrictive covenants hereto.",
+            "sequence_number": 2,
+            "role_code": "DCOV",
+            "deeds": [
+              {
+                "date": "1969-12-09",
+                "id": "2014-07-01 17:15:04.338465",
+                "description": "Deed"
+              }
+            ],
+            "template_text": "A *DT* dated *DD* made between (1) Secretary of State for Social Services (the Grantor) and (2) South Eastern Gas Board (the Board) contains covenants details of which are set out in the schedule of restrictive covenants hereto"
+          }
+        ],
+        "category": "DEED",
+        "group_id": "2014-07-01 17:15:04.338465"
+      },
+      {
+        "entries": [
+          {
+            "entry_date": "2004-04-21",
+            "status": "Current",
+            "sub_register": "C",
+            "language": "ENG",
+            "full_text": "The land is subject to the following rights granted by the Deed dated 9 December 1969 referred to above:-\r\r\"The Grantor as Trustee (and to the intent that the easements hereby granted shall be appurtenant to the statutory gas undertaking of the Board) HEREBY GRANTS unto the Board TO HOLD the same unto the Board in fee simple the easements to lay construct inspect maintain use replace remove or render unusable a main or pipe for the transmission or storage of gas or other materials connected with the exercise and performance of the functions of the Board and all necessary apparatus ancillary thereto (all hereinafter together called \"the said works\") in upon and over a strip of land fifteen feet in width drawn on the plan annexed hereto and thereon coloured pink (hereinafter called \"the said strip of land\") and to pass over the said strip of land for the purposes of the said works and of any works of the Board continuous therewith and over the said land for the purposes of access to the said strip of land at all reasonable times and in an emergency at any time whether or not with workmen vehicles machinery and apparatus.\"\r\rNOTE: The strip of land coloured pink referred to is shown tinted pink on the filed plan.",
+            "sequence_number": 3,
+            "entry_id": "2014-07-01 17:15:04.384875",
+            "infills": [
+              {
+                "type": "PLAN REF",
+                "text": "tinted pink"
+              }
+            ],
+            "category": "DEED",
+            "notes": [
+              {
+                "text": "The strip of land coloured pink referred to is shown *PR* on the filed plan"
+              }
+            ],
+            "role_code": "DCEA",
+            "deeds": [
+              {
+                "date": "1969-12-09",
+                "id": "2014-07-01 17:15:04.398415",
+                "description": "Deed"
+              }
+            ],
+            "template_text": "The land is subject to the following rights granted by the *DT* dated *DD* referred to above:-\r\r\"The Grantor as Trustee (and to the intent that the easements hereby granted shall be appurtenant to the statutory gas undertaking of the Board) HEREBY GRANTS unto the Board TO HOLD the same unto the Board in fee simple the easements to lay construct inspect maintain use replace remove or render unusable a main or pipe for the transmission or storage of gas or other materials connected with the exercise and performance of the functions of the Board and all necessary apparatus ancillary thereto (all hereinafter together called \"the said works\") in upon and over a strip of land fifteen feet in width drawn on the plan annexed hereto and thereon coloured pink (hereinafter called \"the said strip of land\") and to pass over the said strip of land for the purposes of the said works and of any works of the Board continuous therewith and over the said land for the purposes of access to the said strip of land at all reasonable times and in an emergency at any time whether or not with workmen vehicles machinery and apparatus.\"\r\r<NOTE></NOTE>"
+          }
+        ],
+        "category": "DEED",
+        "group_id": "2014-07-01 17:15:04.398415"
+      },
+      {
+        "entries": [
+          {
+            "language": "ENG",
+            "entry_date": "2004-04-21",
+            "status": "Current",
+            "sub_register": "C",
+            "charge_id": "2004-04-21 08:50:03.610220",
+            "draft_entry_code": "CD100",
+            "full_text": "REGISTERED CHARGE dated 19 March 2004.",
+            "draft_entry_version": 1,
+            "sequence_number": 5,
+            "entry_id": "2014-07-01 17:15:04.514445",
+            "infills": [
+              {
+                "date": "2004-03-19",
+                "type": "DATE",
+                "text": "19 March 2004"
+              }
+            ],
+            "category": "CHARGE",
+            "role_code": "CCHA",
+            "template_text": "REGISTERED CHARGE dated *CD*."
+          },
+          {
+            "language": "ENG",
+            "entry_date": "2004-04-21",
+            "status": "Current",
+            "sub_register": "C",
+            "charge_id": "2004-04-21 08:50:03.610220",
+            "draft_entry_code": "CATHC",
+            "full_text": "Proprietor: >CATHOLIC BUILDING SOCIETY> of 7 Strutton Ground, Westminster, London SW1P 2HY.",
+            "draft_entry_version": 1,
+            "sequence_number": 6,
+            "entry_id": "2014-07-01 17:15:04.565995",
+            "infills": [
+              {
+                "type": "Charge Proprietor",
+                "proprietors": [
+                  {
+                    "addresses": [
+                      {
+                        "address_string": "7 Strutton Ground, Westminster, London SW1P 2HY",
+                        "address_type": "UK"
+                      }
+                    ],
+                    "name": {
+                      "non_private_individual_name": "Catholic Building Society"
+                    }
+                  }
+                ]
+              }
+            ],
+            "category": "CHARGE",
+            "role_code": "CCHR",
+            "template_text": "Proprietor: >CATHOLIC BUILDING SOCIETY> of 7 Strutton Ground, Westminster, London SW1P 2HY."
+          }
+        ],
+        "category": "CHARGE",
+        "group_id": "2004-04-21 08:50:03.610220"
+      },
+      {
+        "entries": [
+          {
+            "language": "ENG",
+            "entry_date": "2004-04-21",
+            "status": "Current",
+            "sub_register": "C",
+            "charge_id": "2004-04-21 08:50:52.283460",
+            "draft_entry_code": "CD100",
+            "full_text": "REGISTERED CHARGE dated 22 March 2004.",
+            "draft_entry_version": 1,
+            "sequence_number": 7,
+            "entry_id": "2014-07-01 17:15:04.574065",
+            "infills": [
+              {
+                "date": "2004-03-22",
+                "type": "DATE",
+                "text": "22 March 2004"
+              }
+            ],
+            "category": "CHARGE",
+            "role_code": "CCHA",
+            "template_text": "REGISTERED CHARGE dated *CD*."
+          },
+          {
+            "language": "ENG",
+            "entry_date": "2004-04-21",
+            "status": "Current",
+            "sub_register": "C",
+            "charge_id": "2004-04-21 08:50:52.283460",
+            "draft_entry_code": "CLAMB",
+            "full_text": "Proprietor: >LAMBETH BUILDING SOCIETY> of 118-120 Westminster Bridge Road, London SE1 7XE.",
+            "draft_entry_version": 1,
+            "sequence_number": 8,
+            "entry_id": "2014-07-01 17:15:04.584645",
+            "infills": [
+              {
+                "type": "Charge Proprietor",
+                "proprietors": [
+                  {
+                    "addresses": [
+                      {
+                        "address_string": "118-120 Westminster Bridge Road, London SE1 7XE",
+                        "address_type": "UK"
+                      }
+                    ],
+                    "name": {
+                      "non_private_individual_name": "Lambeth Building Society"
+                    }
+                  }
+                ]
+              }
+            ],
+            "category": "CHARGE",
+            "role_code": "CCHR",
+            "template_text": "Proprietor: >LAMBETH BUILDING SOCIETY> of 118-120 Westminster Bridge Road, London SE1 7XE."
+          }
+        ],
+        "category": "CHARGE",
+        "group_id": "2004-04-21 08:50:52.283460"
+      }
+    ],
+    "uprns": [
+      1004136040
+    ],
+    "filed_plan_format": "VECTOR",
+    "edition_date": "2004-04-21",
+    "dlr": "Gloucester Office",
+    "migration_errors": [
+      {
+        "message_number": "PE1012",
+        "extractor": "Property Extractor",
+        "entry_id": "2014-07-01 17:15:03.842425",
+        "message": "Address not deconstructed in Intelligent Register for title"
+      }
+    ],
+    "last_app_timestamp": "2004-04-21T09:29:08+01:00"
+  }
+}
