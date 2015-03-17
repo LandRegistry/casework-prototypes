@@ -12,8 +12,8 @@ permalink: /casework-v2-c/
                     <!-- <h1>Application Summary</h1> -->
 
                     <div class="panel-body">
-                        <h3>Title number: DN1234</h3>
-                        <h3>Application Reference: Z33XXC</h3>
+                        <h3>Title number: DN5678</h3>
+                        <h3>Application Reference: Z44XXC</h3>
                         <hr/>
 
                         <h1>Action Points</h1>
@@ -87,12 +87,7 @@ permalink: /casework-v2-c/
 
                     <div class="row">
                         <div class="col-md-4"><b>Fee:</b></div>
-                        <div class="col-md-2">
-                            <input type="text" class="form-control" id="fee-value" value="£20">
-                        </div>
-                        <div class="col-md-4">
-                            <a href="#" class="btn btn-primary">Calculate Fee</a>
-                        </div>
+                        <div class="col-md-6">£20</div>
                     </div>
                     <br/>
 
@@ -101,7 +96,6 @@ permalink: /casework-v2-c/
 
                     <div class="well">
                         <p class="lead">Resolve name discrepancy</p>
-
                         <a href="#" onclick="showEvidence();">View Evidence</a> <br/><br/>
                         <div class="form-group">
                             <label for="name1" class="col-sm-4 control-label">Current</label>
@@ -127,15 +121,15 @@ permalink: /casework-v2-c/
                         <br/><br/>
                         <br/><br/>
                         <br/>
+                        <br/>
 
-
-                        <div class="pull-right">
+                        <div class="alert alert-success" id="success-alert" style="display: none;">
+                            Success! Changes have been saved.
+                        </div>
+                        <div class="pull-right" id="save-button-div">
 
                             <br/>
-                           <!-- <div class="alert alert-success" role="alert">
-                                <p>Changes have been saved</p>
-                            </div>
-                            -->
+
                             <button type="button" class="btn btn-primary" id="save-button" onclick="saveNote();">Save</button>
                         </div>
                         <br/>
@@ -230,7 +224,7 @@ permalink: /casework-v2-c/
                                 <td>Added a note to check fee</td>
                             </tr>
                             <tr>
-                                <td>13/012/2013</td>
+                                <td>13/12/2013</td>
                                 <td>CS222BB</td>
                                 <td>Added a test note</td>
                             </tr>
@@ -258,13 +252,10 @@ permalink: /casework-v2-c/
                         Cancel
                     </a>
                     <a href="{{ site.baseurl }}/casework-v2-a/" class="btn btn-primary">
-                        Complete application <i class="fa fa-angle-double-right"></i>
-                    </a>
-                    <a href="{{ site.baseurl }}/casework-v2-a/" class="btn btn-primary">
-                        Standover application <i class="fa fa-angle-double-right"></i>
+                        Store application <i class="fa fa-angle-double-right"></i>
                     </a>
                     <a data-toggle="modal" data-target="#summary" class="btn btn-success">
-                        Mark Off application <i class="fa fa-angle-double-right"></i>
+                        Accept <i class="fa fa-angle-double-right"></i>
                     </a>
                 </div>
             </div>
@@ -301,7 +292,7 @@ permalink: /casework-v2-c/
                 <div class="modal-footer">
                     <a class="btn btn-lg btn-warning" data-dismiss="modal">Cancel</a>
                     <a href="{{ site.baseurl }}/casework-v2-a/" class="btn btn-lg btn-success">
-                        Accept
+                        Complete Application
                     </a>
                 </div>
             </div>
@@ -354,8 +345,10 @@ permalink: /casework-v2-c/
 
     function saveNote() {
         document.getElementById('name2').disabled = 'disabled';
+        document.getElementById('note-area').disabled = 'disabled';
         $('#save-button').text('Saved');
-
+        $('#success-alert').show();
+        $('#save-button').disabled = 'disabled';
     }
 
 </script>

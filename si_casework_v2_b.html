@@ -12,7 +12,6 @@ permalink: /casework-v2-b/
                 <!-- <h1>Application Summary</h1> -->
 
                 <div class="panel-body">
-                    <h3>Title number: DN1234</h3>
                     <h3>Application Reference: Z33XXC</h3>
                     <hr/>
 
@@ -84,15 +83,10 @@ permalink: /casework-v2-b/
 
                     <div class="row">
                         <div class="col-md-4"><b>Fee:</b></div>
-                        <div class="col-md-2">
-                            <input type="text" class="form-control" id="fee-value" value="£20">
-                        </div>
-                        <div class="col-md-4">
-                            <a href="#" class="btn btn-primary">Calculate Fee</a>
-                        </div>
+                        <div class="col-md-6">£20</div>
                     </div>
                     <br/>
-
+                    <!--
                     <u><h3>Action Points</h3></u>
                     <br/>
 
@@ -101,7 +95,7 @@ permalink: /casework-v2-b/
                         <br/>
                     </div>
                     <br/>
-
+                    -->
                 </div>
 
                 <div class="tab-pane fade" id="evidence">
@@ -139,7 +133,7 @@ permalink: /casework-v2-b/
                                 <td>Added a note to check fee</td>
                             </tr>
                             <tr>
-                                <td>13/012/2013</td>
+                                <td>13/12/2013</td>
                                 <td>CS222BB</td>
                                 <td>Added a test note</td>
                             </tr>
@@ -167,13 +161,10 @@ permalink: /casework-v2-b/
                         Cancel
                     </a>
                     <a href="{{ site.baseurl }}/casework-v2-a/" class="btn btn-primary">
-                        Complete application <i class="fa fa-angle-double-right"></i>
-                    </a>
-                    <a href="{{ site.baseurl }}/casework-v2-a/" class="btn btn-primary">
-                        Standover application <i class="fa fa-angle-double-right"></i>
+                        Store application <i class="fa fa-angle-double-right"></i>
                     </a>
                     <a data-toggle="modal" data-target="#summary" class="btn btn-success">
-                        Mark Off application <i class="fa fa-angle-double-right"></i>
+                        Accept <i class="fa fa-angle-double-right"></i>
                     </a>
                 </div>
             </div>
@@ -188,14 +179,6 @@ permalink: /casework-v2-b/
                     <h4 class="modal-title" id="myModalLabel2">Summary</h4>
                 </div>
                 <div class="modal-body">
-
-                    <p>Amended entries:</p>
-
-                    <div class="well">
-                        <p>Proprietorship Register</p>
-                        <p>1. (08.08.2013) PROPRIETOR: Walter White and Skylar White of 1 High Street, Plymchester, PC1 9ZZ</p>
-                    </div>
-
                     <p>Entry to be added:</p>
 
                     <div class="well">
@@ -210,7 +193,7 @@ permalink: /casework-v2-b/
                 <div class="modal-footer">
                     <a class="btn btn-lg btn-warning" data-dismiss="modal">Cancel</a>
                     <a href="{{ site.baseurl }}/casework-v2-a/" class="btn btn-lg btn-success">
-                        Accept
+                        Complete Application
                     </a>
                 </div>
             </div>
