@@ -44,7 +44,7 @@ permalink: /neil/casework/
                                             Address
                                         </th>
                                         <td>
-                                            29 Acacia Road
+                                            436 Poole Road, Branksome, Poole (BH12 1DF)
                                         </td>
                                     </tr>
                                 </table>
@@ -61,7 +61,14 @@ permalink: /neil/casework/
                         </div>
                         <div id="collapseTwo" class="panel-collapse collapse">
                             <div class="panel-body">
-                                Eric Wimp
+                                <ul>
+                                    <li>
+                                        Fred Smith
+                                    </li>
+                                    <li>
+                                        Jane Smith
+                                    </li>
+                                </ul>
                             </div>
                         </div>
                     </div>
@@ -75,8 +82,16 @@ permalink: /neil/casework/
                         </div>
                         <div id="collapseThree" class="panel-collapse collapse">
                             <div class="panel-body">
-                                <label for="charge">Charge details</label>
-                                <input type="text" name="charge" id="charge"/>
+                                <ul>
+                                    <li>
+                                        <label for="charge">Charge date</label>
+                                        <input type="date" name="charge" id="charge"/>
+                                    </li>
+                                    <li>
+                                        <label for="lender">Lender</label>
+                                        <input type="text" name="lender" id="lender"/>
+                                    </li>
+                                </ul>
                             </div>
                         </div>
                     </div>
@@ -96,17 +111,91 @@ permalink: /neil/casework/
                         </div>
                     </div>
                 </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h2 class="panel-title">
+                            CH1 entry fields
+                        </h2>
+                    </div>
+                    <div class="panel-body">
+                        Stuff they enter on the CH1
+                        <ul>
+                            <li>
+                                <label for="titleNumber">Title number</label>
+                                <input type="text" name="titleNumber" id="titleNumber"/>
+                            </li>
+                        </ul>
+                        <hr/>
+                        <ul>
+                            <li>
+                                <label for="property">Property</label>
+                                <input type="text" name="property" id="property"/>
+                            </li>
+                        </ul>
+                        <hr/>
+                        <ul>
+                            <li>
+                                <label for="ch1Date">Date</label>
+                                <input type="date" name="ch1Date" id="ch1Date"/>
+                            </li>
+                        </ul>
+                        <hr/>
+                        <ul>
+                            <li>
+                                <label for="borrower">Borrower</label>
+                                <input type="text" name="borrower" id="borrower"/>
+                            </li>
+                        </ul>
+                        There is more stuff here, but it's the LLP / overseas info etc.
+                        <hr/>
+                        <ul>
+                            <li>
+                                <label for="ch1lender">Lender for entry in the register</label>
+                                <input type="text" name="lender" id="ch1lender"/>
+                            </li>
+                        </ul>
+                        <hr/>
+                        <ul>
+                            <li>
+                                <label for="lenderAddress">Lender's intended address(es) for service for entry in the register</label>
+                                <input type="text" name="lenderAddress" id="lenderAddress"/>
+                            </li>
+                        </ul>
+                        <hr/>
+                        Bits and bobs - section 7
+                        <hr/>
+                        Section 8
+                        <hr/>
+                        <ul>
+                            <li>
+                                <label for="provisions">Additional provisions</label>
+                                <input type="text" name="provisions" id="provisions"/>
+                            </li>
+                        </ul>
+                        <hr/>
+                        <ul>
+                            <li>
+                                <label for="execution">Execution</label>
+                                <input type="text" name="execution" id="execution"/>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <a class="btn btn-default" href="{{ site.baseurl }}/neil/getwork/">
+                    Back to casework list
+                </a>
+                <a class="btn btn-warning" href="{{ site.baseurl }}/neil/referral/">
+                    Refer case
+                </a>
+                <a class="btn btn-primary" href="{{ site.baseurl }}/neil/confirmation/">
+                    Proceed to mark off
+                </a>
             </div>
             <div class="col-md-6">
                 <h2>
                     Register
                 </h2>
                 <ul class="nav nav-tabs">
-                    <li>
-                        <a data-toggle="tab" href="#summary">
-                            Summary
-                        </a>
-                    </li>
                     <li class="active">
                         <a data-toggle="tab" href="#sectionA">
                             A Register
@@ -124,88 +213,13 @@ permalink: /neil/casework/
                     </li>
                 </ul>
                 <div class="tab-content">
-                    <div id="summary" class="tab-pane fade">
-                        <h3>
-                            Summary
-                        </h3>
-                        <table class="table">
-                            <tr>
-                                <th>
-                                    Office
-                                </th>
-                                <td>
-                                    Weymouth
-                                </td>
-                            </tr>
-                            <tr>
-                                <th>
-                                    Team
-                                </th>
-                                <td>
-                                    Team 2
-                                </td>
-                            </tr>
-                            <tr>
-                                <th>
-                                    ABR
-                                </th>
-                                <td>
-                                    LA29E0D
-                                </td>
-                            </tr>
-                            <tr>
-                                <th>
-                                    Estate Info
-                                </th>
-                                <td>
-                                    Absolute Freehold Estate In Land
-                                </td>
-                            </tr>
-                            <tr>
-                                <th>
-                                    Last Application Date
-                                </th>
-                                <td>
-                                    21 Jan 2009
-                                </td>
-                            </tr>
-                            <tr>
-                                <th>
-                                    Last Application Time
-                                </th>
-                                <td>
-                                    10:07:40
-                                </td>
-                            </tr>
-                            <tr>
-                                <th>
-                                    Edition Date
-                                </th>
-                                <td>
-                                    21 Jan 2009
-                                </td>
-                            </tr>
-                        </table>
-                        <h4>
-                            Notes
-                        </h4>
-                        <ol>
-                            <li>
-                                The date at the beginning of an entry is the date on which the entry was made on the register.
-                            </li>
-                            <li>
-                                Symbols included in register entries do not form part of the register and are used by Land Registry for internal purposes only.
-                            </li>
-                        </ol>
-                    </div>
-                    <div id="sectionA" class="tab-pane fade">
+                    <div id="sectionA" class="tab-pane fade in active">
                         <h3>
                             A Register
                         </h3>
                         <h4>
                             Property Register
                         </h4>
-                        This register describes the land and estate comprised in the title.
                         <h5>
                             Poole
                         </h5>
@@ -224,7 +238,6 @@ permalink: /neil/casework/
                         <h4>
                             Proprietorship Register
                         </h4>
-                        This register specifies the class of title and identifies the owner. It contains any entries that affect the right of disposal.
                         <h5>
                             TITLE ABSOLUTE
                         </h5>
@@ -236,16 +249,13 @@ permalink: /neil/casework/
                         <hr/>
                         End of B Register.
                     </div>
-                    <div id="sectionC" class="tab-pane fade in active">
+                    <div id="sectionC" class="tab-pane fade">
                         <h3>
                             C Register
                         </h3>
                         <h4>
                             Charges Register
                         </h4>
-                        <p>
-                            This register contains any charges and other matters that affect the land.
-                        </p>
                         <ol>
                             <li>
                                 (21.01.2009) REGISTERED CHARGE dated 6 January 2009.
@@ -257,17 +267,14 @@ permalink: /neil/casework/
                         <hr/>
                         End of C Register
                     </div>
+                    <a class="btn btn-default">
+                        Show changes
+                    </a>
+                    <a class="btn btn-default">
+                        Hide changes
+                    </a>
                 </div>
             </div>
         </div>
     </div>
-    <a class="btn btn-default" href="{{ site.baseurl }}/neil/getwork/">
-        Back to casework list
-    </a>
-    <a class="btn btn-warning">
-        Refer case
-    </a>
-    <a class="btn btn-primary">
-        Proceed to mark off
-    </a>
 </div>
