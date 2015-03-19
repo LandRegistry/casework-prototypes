@@ -83,6 +83,14 @@
     width: 100%;
 }
 
+.s-reg-header {
+    background-color:#bbbbbb;
+    color:white;
+    font-size:large;
+    padding-left:15px;
+    padding-right: 15px;
+}
+
 @media (min-width: 768px){
   #register-old {
     position: absolute;
@@ -159,3 +167,4 @@
     float:right;
     font-size: x-small;
 }
+
