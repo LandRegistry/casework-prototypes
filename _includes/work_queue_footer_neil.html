@@ -51,9 +51,8 @@ function addEntry()
 function addNote()
 {
     var notepad = document.getElementById("noteText").value;
-     alert(notepad)
+
     var notepanel = document.getElementById("notes");
-     alert(notepanel.innerHTML)
    notepanel.innerHTML = notepanel.innerHTML + "<p>" + (notepad) + "</p>";
    document.getElementById("noteText").value = '';
 }
