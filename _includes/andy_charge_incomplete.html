@@ -1,16 +1,36 @@
 <div class="row">
-    <div class="panel panel-default">
+    <div class="panel panel-primary" style="background-color:#BBDDFF">
         <div class="panel-heading">
             <h3 class="panel-title">Transaction details</h3>
         </div>
         <div class="panel-body">
             <p>
-                Charge lodged by <strong>Riley, Raileigh & R'lyeh Conveyancers</strong>.
+                This application is a <strong>further mortgage</strong> lodged by <strong>Tanner & Coleman
+                Conveyancers</strong>.
             </p>
+
             <p>
-                Title number <strong>DN123456</strong>.
+                There is <strong>1</strong> discrepancy that requires investigation.
+            </p>
 
-                Charge of <strong>£40,000</strong> to be added to register.
+            <ol>
+                <li>
+                    Difference between borrower name on application and owner name on register.
+                </li>
+            </ol>
+
+            <!--this is the default footer for the summary block-->
+            <p style="font-size:small">
+                <br/>
+                <em>All other information from this application has been digitally checked against the register and is
+                confirmed to match.</em>
+            </p>
+            <!--footer ends-->
+
+            <p>
+                <a href="{{ site.baseurl }}/andy/contact">
+                    <button type="button" class="btn btn-sm btn-primary">Contact lodging party</button>
+                </a>
             </p>
         </div>
     </div>
@@ -18,228 +38,190 @@
 
 <div class="row">
     <div class="panel panel-default">
-        <a class="accordion-toggle collapsed" data-toggle="collapse" href="#collapseBuyer" style="text-decoration:none">
-            <div class="panel-heading appDetails">
-                <h4 class="panel-title">
-                    Borrower information
-                </h4>
-            </div>
-        </a>
-
-        <div id="collapseBuyer" class="panel-collapse collapse">
-            <div class="panel-body">
-                <table>
-                    <tr>
-                        <td style="width:250px">
-                            <strong>Borrower name</strong>
-                        </td>
-                        <td style="width:500px">
-                            <input type="text" disabled style="color:#AAAAAA; width:75%" value="Barry Edgar Cheese, Emily Lily Cake">
-                            <a href="{{ site.baseurl }}/andy/help#borrowerName" target="_blank"><i class="fa fa-question-circle fa-4"></i></a>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <strong>Address for service</strong>
-                        </td>
-                        <td>
-                            <input type="text" disabled style="width:95%; color:#AAAAAA" value="23 Sandwich Road, Plymouth PL1 234">
-                            <a href="{{ site.baseurl }}/andy/help#borrowerAddress" target="_blank"><i class="fa fa-question-circle fa-4"></i></a>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <strong>UK Company if applicable</strong>
-                        </td>
-                        <td>
-                            <input type="text" disabled style="color:#AAAAAA; width:75%">
-                            <a href="{{ site.baseurl }}/andy/help#borrowerUKCompany" target="_blank"><i class="fa fa-question-circle fa-4"></i></a>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <strong>Overseas territory if applicable</strong>
-                        </td>
-                        <td>
-                            <input type="text" disabled style="color:#AAAAAA; width:75%">
-                            <a href="{{ site.baseurl }}/andy/help#borrowerOverseas" target="_blank"><i class="fa fa-question-circle fa-4"></i></a>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <strong>UK Company number if applicable</strong>
-                        </td>
-                        <td>
-                            <input type="text" disabled style="color:#AAAAAA">
-                            <a href="{{ site.baseurl }}/andy/help#borrowerUKCompanyNo" target="_blank"><i class="fa fa-question-circle fa-4"></i></a>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <strong>Date of charge</strong>
-                        </td>
-                        <td>
-                            <input type="text" disabled style="color:#AAAAAA" value="14/07/2015">
-                            <a href="{{ site.baseurl }}/andy/help#dateOfCharge" target="_blank"><i class="fa fa-question-circle fa-4"></i></a>
-                        </td>
-                    </tr>
-                </table>
-            </div>
+        <div class="panel-heading">
+            <h4 class="panel-title">
+                Borrower information
+            </h4>
+        </div>
+        <div class="panel-body">
+            <table>
+                <tr>
+                    <td style="width:250px">
+                        <strong>Borrower name</strong>
+                    </td>
+                    <td style="width:500px">
+                        <input type="text" disabled style="background-color:#FFAAAA; width:75%"
+                               value="Reuben Charles Brand, Hilda Brand">
+                        <a href="{{ site.baseurl }}/andy/help#borrowerName" target="_blank"><i
+                                class="fa fa-question-circle fa-4"></i></a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <strong>Address for service</strong>
+                    </td>
+                    <td>
+                        <input type="text" disabled style="width:95%; color:#AAAAAA"
+                               value="23 Mannamead Road, Plymouth PL1 234">
+                        <a href="{{ site.baseurl }}/andy/help#borrowerAddress" target="_blank"><i
+                                class="fa fa-question-circle fa-4"></i></a>
+                    </td>
+                </tr>
+                <!--<tr>
+                    <td>
+                        <strong>UK Company if applicable</strong>
+                    </td>
+                    <td>
+                        <input type="text" disabled style="color:#AAAAAA; width:75%">
+                        <a href="{{ site.baseurl }}/andy/help#borrowerUKCompany" target="_blank"><i
+                                class="fa fa-question-circle fa-4"></i></a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <strong>Overseas territory if applicable</strong>
+                    </td>
+                    <td>
+                        <input type="text" disabled style="color:#AAAAAA; width:75%">
+                        <a href="{{ site.baseurl }}/andy/help#borrowerOverseas" target="_blank"><i
+                                class="fa fa-question-circle fa-4"></i></a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <strong>UK Company number if applicable</strong>
+                    </td>
+                    <td>
+                        <input type="text" disabled style="color:#AAAAAA">
+                        <a href="{{ site.baseurl }}/andy/help#borrowerUKCompanyNo" target="_blank"><i
+                                class="fa fa-question-circle fa-4"></i></a>
+                    </td>
+                </tr>-->
+            </table>
         </div>
     </div>
 </div>
 
 <div class="row">
     <div class="panel panel-default">
-        <a class="accordion-toggle collapsed" data-toggle="collapse" href="#collapseLender" style="text-decoration:none">
-            <div class="panel-heading appDetails">
-                <h4 class="panel-title">
-                    Lender information
-                </h4>
-            </div>
-        </a>
+        <div class="panel-heading">
+            <h4 class="panel-title">
+                Lender information
+            </h4>
+        </div>
 
-        <div id="collapseLender" class="panel-collapse collapse">
-            <div class="panel-body">
-                <table>
-                    <tr>
-                        <td style="width:250px">
-                            <strong>Lender name</strong>
-                        </td>
-                        <td style="width:500px">
-                            <input type="text" disabled style="color:#AAAAAA; width:75%" value="Lloyds Bank PLC">
-                            <a href="{{ site.baseurl }}/andy/help#lenderName" target="_blank"><i class="fa fa-question-circle fa-4"></i></a>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <strong>Lender address</strong>
-                        </td>
-                        <td>
-                            <input type="text" disabled style="width:95%; color:#AAAAAA" value="Lloyds House, London, NW1 1AA">
-                            <a href="{{ site.baseurl }}/andy/help#lenderAddress" target="_blank"><i class="fa fa-question-circle fa-4"></i></a>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <strong>UK Company if applicable</strong>
-                        </td>
-                        <td>
-                            <input type="text" disabled style="color:#AAAAAA; width:75%">
-                            <a href="{{ site.baseurl }}/andy/help#lenderUKCompany" target="_blank"><i class="fa fa-question-circle fa-4"></i></a>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <strong>Overseas territory if applicable</strong>
-                        </td>
-                        <td>
-                            <input type="text" disabled style="color:#AAAAAA; width:75%">
-                            <a href="{{ site.baseurl }}/andy/help#lenderOverseas" target="_blank"><i class="fa fa-question-circle fa-4"></i></a>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <strong>UK Company number if applicable</strong>
-                        </td>
-                        <td>
-                            <input type="text" disabled style="color:#AAAAAA">
-                            <a href="{{ site.baseurl }}/andy/help#lenderUKCompanyNo" target="_blank"><i class="fa fa-question-circle fa-4"></i></a>
-                        </td>
-                    </tr>
-                </table>
-            </div>
+
+        <div class="panel-body">
+            <table>
+                <tr>
+                    <td style="width:250px">
+                        <strong>Lender name</strong>
+                    </td>
+                    <td style="width:500px">
+                        <input type="text" disabled style="color:#AAAAAA; width:75%" value="Lloyds Bank PLC">
+                        <a href="{{ site.baseurl }}/andy/help#lenderName" target="_blank"><i
+                                class="fa fa-question-circle fa-4"></i></a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <strong>Lender address</strong>
+                    </td>
+                    <td>
+                        <input type="text" disabled style="width:95%; color:#AAAAAA"
+                               value="Lloyds House, London, NW1 1AA">
+                        <a href="{{ site.baseurl }}/andy/help#lenderAddress" target="_blank"><i
+                                class="fa fa-question-circle fa-4"></i></a>
+                    </td>
+                </tr>
+                <!--<tr>
+                    <td>
+                        <strong>UK Company if applicable</strong>
+                    </td>
+                    <td>
+                        <input type="text" disabled style="color:#AAAAAA; width:75%">
+                        <a href="{{ site.baseurl }}/andy/help#lenderUKCompany" target="_blank"><i
+                                class="fa fa-question-circle fa-4"></i></a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <strong>Overseas territory if applicable</strong>
+                    </td>
+                    <td>
+                        <input type="text" disabled style="color:#AAAAAA; width:75%">
+                        <a href="{{ site.baseurl }}/andy/help#lenderOverseas" target="_blank"><i
+                                class="fa fa-question-circle fa-4"></i></a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <strong>UK Company number if applicable</strong>
+                    </td>
+                    <td>
+                        <input type="text" disabled style="color:#AAAAAA">
+                        <a href="{{ site.baseurl }}/andy/help#lenderUKCompanyNo" target="_blank"><i
+                                class="fa fa-question-circle fa-4"></i></a>
+                    </td>
+                </tr>-->
+            </table>
         </div>
     </div>
 </div>
 
 <div class="row">
     <div class="panel panel-default">
-        <a class="accordion-toggle" data-toggle="collapse" href="#collapseProperty" style="text-decoration:none">
-            <div class="panel-heading appDetails">
-                <h4 class="panel-title">
-                    Property information
-                </h4>
-            </div>
-        </a>
 
-        <div id="collapseProperty" class="panel-collapse collapse in">
-            <div class="panel-body">
-                <table>
-                    <tr>
-                        <td style="width:250px">
-                            <strong>Address of the property</strong>
-                        </td>
-                        <td style="width:500px">
-                            <input type="text" style="background-color:#FFAAAA; width:95%;" value="816 Love craft Close, Arkham town, AK47PP">
-                            <a href="{{ site.baseurl }}/andy/help#propertyAddress" target="_blank"><i class="fa fa-question-circle fa-4"></i></a>
-                        </td>
+        <div class="panel-heading">
+            <h4 class="panel-title">
+                Charge information
+            </h4>
+        </div>
 
-                    </tr>
-                    <tr>
-                        <td>
-                            <strong>Title number</strong>
-                        </td>
-                        <td>
-                            <input type="text" disabled style="color:#AAAAAA" value="DN123456">
-                            <a href="{{ site.baseurl }}/andy/help#propertyTitleNo" target="_blank"><i class="fa fa-question-circle fa-4"></i></a>
-                        </td>
-                    </tr>
-                </table>
-            </div>
+        <div class="panel-body">
+            <table>
+                <tr>
+                    <td style="width:250px">
+                        <strong>Address of the property</strong>
+                    </td>
+                    <td style="width:500px">
+                        <input type="text" disabled style="color:#AAAAAA; width:95%"
+                               value="15a Plymouth Road, Exeter, EX1 4PP">
+                        <a href="{{ site.baseurl }}/andy/help#propertyAddress" target="_blank"><i
+                                class="fa fa-question-circle fa-4"></i></a>
+                    </td>
+
+                </tr>
+                <tr>
+                    <td>
+                        <strong>Title number</strong>
+                    </td>
+                    <td>
+                        <input type="text" disabled style="color:#AAAAAA" value="DN123456">
+                        <a href="{{ site.baseurl }}/andy/help#propertyTitleNo" target="_blank"><i
+                                class="fa fa-question-circle fa-4"></i></a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <strong>Date of charge</strong>
+                    </td>
+                    <td>
+                        <input type="text" disabled style="color:#AAAAAA" value="14/07/2015">
+                        <a href="{{ site.baseurl }}/andy/help#dateOfCharge" target="_blank"><i
+                                class="fa fa-question-circle fa-4"></i></a>
+                    </td>
+                </tr>
+            </table>
         </div>
     </div>
 </div>
-
-<!-- Fee info removed after conversation with Charges team, who considered that the charging structure may change
-completely given the entirely new method of submitting charge information. For example, a new end-to-end process
-may involve what used to be OC1 requests, mortgage submissions and more, and hence may attract a higher one-time charge
-<div class="row">
-    <div class="panel panel-default">
-        <a class="accordion-toggle" data-toggle="collapse" href="#collapseFee" style="text-decoration:none">
-            <div class="panel-heading appDetails">
-                <h4 class="panel-title">
-                    Fee information
-                </h4>
-            </div>
-        </a>
-
-        <div id="collapseFee" class="panel-collapse collapse in">
-            <div class="panel-body">
-                <table>
-                    <tr>
-                        <td style="width:250px">
-                            <strong>Value of the charge</strong>
-                        </td>
-                        <td style="width:180px">
-                            <input type="text" style="background-color:#FFAAAA" value="£40,000">
-                            <a href="{{ site.baseurl }}/andy/help#chargeValue" target="_blank"><i class="fa fa-question-circle fa-4"></i></a>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <strong>Fee applied to the charge</strong>
-                        </td>
-                        <td>
-                            <input type="text" id="feeBox" style="background-color:#FFAAAA">
-                            <a href="{{ site.baseurl }}/andy/help#Fee" target="_blank"><i class="fa fa-question-circle fa-4"></i></a>
-                        </td>
-                        <td style="width:250px">
-                            <input type="button" class="btn-xs btn-default" value="Calculate fee" onClick="document.getElementById('feeBox').value='£20.00'">
-                        </td>
-                    </tr>
-                </table>
-            </div>
-        </div>
-    </div>
-</div>
--->
 
 <div class="row">
     <div>
         <h2>
             <a href="{{ site.baseurl }}/andy/confirmapp/" class="btn btn-lg btn-default">
-                Complete <i class="fa fa-angle-double-right"></i>
+                Review Changes <i class="fa fa-angle-double-right"></i>
             </a>
             <a href="{{ site.baseurl }}/andy/standover-incomplete/" class="btn btn-lg btn-default">
                 Standover <i class="fa fa-angle-double-right"></i>

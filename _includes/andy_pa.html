@@ -1,0 +1,40 @@
+<br/>
+
+<div class="input-group" style="width:100%">
+    <table style="width:100%">
+        <tr>
+            <td>
+                Point arising history
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <textarea id="pointsArising" disabled style="width:100%; height:400px; resize:none; border:1px solid #999999">{% include points_arising.txt %}</textarea>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Enter new comments
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <input id="newComments" type="text" class="form-control" autofocus="true"
+                       style="width:100%; border:1px solid #999999">
+            </td>
+        </tr>
+        <tr>
+            <td>
+
+                <div>
+                    <h2>
+                        <button class="btn btn-lg btn-default" onclick="addNotes(document.getElementById('newComments').value);">
+                            Submit notes <i class="fa fa-angle-double-right"></i>
+                        </button>
+                    </h2>
+                </div>
+
+            </td>
+        </tr>
+    </table>
+</div>
