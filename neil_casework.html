@@ -1,5 +1,5 @@
 ---
-layout: work_queue_andy
+layout: work_queue_neil
 title: Manage case
 permalink: /neil/casework/
 ---
@@ -16,7 +16,7 @@ permalink: /neil/casework/
             </ul>
         </div>
         <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">-->
-            <div>
+        <div>
             <div class="col-md-6">
                 <h1>Manage case</h1>
                 <div class="panel-group" id="accordion">
@@ -51,11 +51,62 @@ permalink: /neil/casework/
                             </div>
                         </div>
                     </div>
+
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h2 class="panel-title">
+                                <a data-toggle="collapse" href="#collapseTen">
+                                    Lodged by
+                                </a>
+                            </h2>
+                        </div>
+                        <div id="collapseTen" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                <table class="table">
+                                    <tr>
+                                        <th>
+                                            Solicitor
+                                        </th>
+                                        <td>
+                                            Semple, Calendar and Henty Solicitors
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th>
+                                            Address
+                                        </th>
+                                        <td>
+                                            4 December Walk, Maybank, Poole (BH1 4DE)
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th>
+                                            Telephone
+                                        </th>
+                                        <td>
+                                            01785 578934
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th>
+                                            Reference
+                                        </th>
+                                        <td>
+                                            JS/Smith
+                                        </td>
+                                    </tr>
+                                </table>
+
+                            </div>
+                        </div>
+                    </div>
+
+
                     <div class="panel panel-default">
                         <div class="panel-heading">
                             <h2 class="panel-title">
                                 <a data-toggle="collapse" href="#collapseTwo">
-                                    Customer
+                                    Borrower details
                                 </a>
                             </h2>
                         </div>
@@ -63,12 +114,15 @@ permalink: /neil/casework/
                             <div class="panel-body">
                                 <ul>
                                     <li>
-                                        Fred Smith
+                                        <label for="borrower1">Borrower 1</label>
+                                        <input type="text" id="borrower1" value="Fred Smith"/>
                                     </li>
                                     <li>
-                                        Jane Smith
+                                        <label for="borrower2">Borrower 2</label>
+                                        <input type="text" id="borrower2" value="Jane Smith"/>
                                     </li>
                                 </ul>
+                                <input type="button" value="Apply changes" onclick="applyChanges()"/>
                             </div>
                         </div>
                     </div>
@@ -85,17 +139,28 @@ permalink: /neil/casework/
                                 <ul>
                                     <li>
                                         <label for="charge">Charge date</label>
-                                        <input type="date" name="charge" id="charge"/>
+                                        <input readOnly="true" type="date" name="charge" id="charge" value="2015-03-20"/>
                                     </li>
                                     <li>
                                         <label for="lender">Lender</label>
-                                        <input type="text" name="lender" id="lender"/>
+                                        <input readOnly="true" type="text" name="lender" id="lender" value="Abbey National PLC"/>
+                                    </li>
+                                    <li>
+                                        <label for="lendersAddress">Lender's address</label>
+                                        <br/>
+                                        <textarea readOnly="true" name="lenderAddress" id="lendersAddress" cols="40" rows="2">Deeds Services, 101 Midsomer Boulevard, Milton Keynes MK9 1AA.
+                                        </textarea>
+                                    </li>
+                                    <li>
+                                        <label for="coRegNo">Company registration number</label>
+                                        <input readonly="true"  type="text" name="lenderAddress" id="coRegNo" value="2294747"/>
                                     </li>
                                 </ul>
+                                <input type="button" value="Add to register" id="addToRegister" onclick="addEntry()"/>
                             </div>
                         </div>
                     </div>
-                    <div class="panel panel-default">
+<!--                    <div class="panel panel-default">
                         <div class="panel-heading">
                             <h2 class="panel-title">
                                 <a data-toggle="collapse" href="#collapseFour">
@@ -107,11 +172,37 @@ permalink: /neil/casework/
                             <div class="panel-body">
                                 <label for="fees">Fees</label>
                                 <input type="text" name="fees" id="fees"/>
+                                <input type="button" value="Save"/>
+                            </div>
+                        </div>
+                    </div>-->
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h2 class="panel-title">
+                                <a data-toggle="collapse" href="#collapseEleven">
+                                    Notes
+                                </a>
+                            </h2>
+                        </div>
+                        <div id="collapseEleven" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                <div id="notes">
+                                    <p>
+                                        We certify that we have seen the marriage certificate of John and Jane Smith and Jane Smith is one and the same person as Jane Doe.  JS/01March15
+                                    </p>
+                                </div>
+                                <div>
+
+
+                                <textarea id="noteText" cols="50" rows="5"></textarea>
+                                <br/>
+                                <input type="button" value="Add Note" id="addNote" onclick="addNote()"/>
+                                    </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="panel panel-default">
+<!--                <div class="panel panel-default">
                     <div class="panel-heading">
                         <h2 class="panel-title">
                             CH1 entry fields
@@ -180,16 +271,7 @@ permalink: /neil/casework/
                             </li>
                         </ul>
                     </div>
-                </div>
-                <a class="btn btn-default" href="{{ site.baseurl }}/neil/getwork/">
-                    Back to casework list
-                </a>
-                <a class="btn btn-warning" href="{{ site.baseurl }}/neil/referral/">
-                    Refer case
-                </a>
-                <a class="btn btn-primary" href="{{ site.baseurl }}/neil/confirmation/">
-                    Proceed to mark off
-                </a>
+                </div>-->
             </div>
             <div class="col-md-6">
                 <h2>
@@ -243,7 +325,7 @@ permalink: /neil/casework/
                         </h5>
                         <ol>
                             <li>
-                                (21.01.2009) PROPRIETOR: #FRED SMITH# and #JANE SMITH# of 23 Poppy Road, *Plymouth*.
+                                (21.01.2009) PROPRIETOR: <span id="name1">#FRED SMITH#</span> and <span id="name2">#JANE DOE#</span> of 23 Poppy Road, *Plymouth* PL1 3QE.
                             </li>
                         </ol>
                         <hr/>
@@ -263,15 +345,32 @@ permalink: /neil/casework/
                             <li>
                                 (21.01.2009) Proprietor: #ABBEY NATIONAL PLC# (Co. Regn. No. 2294747) of Deeds Services, 101 Midsomer Boulevard, Milton Keynes MK9 1AA.
                             </li>
+                            <li id="aerith" style="display:none">
+                                (21.03.2015) REGISTERED CHARGE dated 20 March 2015.
+                            </li>
+                            <li id="bob" style="display:none">
+                                (21.03.2015) Proprietor: #ABBEY NATIONAL PLC# (Co. Regn. No. 2294747) of Deeds Services, 101 Midsomer Boulevard, Milton Keynes MK9 1AA.
+                            </li>
+
                         </ol>
                         <hr/>
                         End of C Register
                     </div>
-                    <a class="btn btn-default">
+                    <hr/>
+                    <a class="btn btn-default" onclick="change()" id="showhide">
                         Show changes
                     </a>
-                    <a class="btn btn-default">
-                        Hide changes
+                    <hr/>
+                </div>
+                <div>
+                    <a class="btn btn-default" href="{{ site.baseurl }}/neil/getwork/">
+                        Back to casework list
+                    </a>
+                    <a class="btn btn-warning" href="{{ site.baseurl }}/neil/referral/">
+                        Refer case
+                    </a>
+                    <a class="btn btn-primary" href="{{ site.baseurl }}/neil/confirmation/">
+                        Complete and mark off
                     </a>
                 </div>
             </div>
