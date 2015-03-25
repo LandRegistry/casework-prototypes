@@ -1,0 +1,74 @@
+<div class="row" style="padding-left:20%; padding-right:20%; font-size:150%">
+    <br/>
+
+    <p>
+        This application is a <strong>further mortgage</strong> lodged by <strong>Tanner & Coleman
+        Conveyancers</strong>.
+    </p>
+
+    <p>
+        <a href="{{ site.baseurl }}/andy/contact-simple">
+            <button type="button" class="btn btn-sm btn-default">Contact lodging party</button>
+        </a>
+    </p>
+
+    <br/>
+
+    <p>
+        All data from this application has been digitally checked against the register. The data received in this
+        application matches the existing register with the exception of the following:
+    </p>
+
+    <ol>
+        <li>
+            <p>
+                Difference between proprietor name on application and register.
+            </p>
+
+            <p style="text-indent:50px">
+                Name on register is: <strong>Reuben Charles Brand, Hilda Oliver</strong>
+            </p>
+
+            <p style="text-indent:50px">
+                Name on application is: <strong>Reuben Charles Brand, Hilda Brand</strong>
+            </p>
+        </li>
+    </ol>
+
+    <br/>
+
+    <p>
+        The following evidence was provided:
+    </p>
+
+    <ul>
+        <li>
+            Marriage certificate <a href="{{ site.baseurl }}/images/marcertnew.gif" target="_blank">
+            <button type="button" class="btn btn-sm btn-default">view</button>
+        </a>
+        </li>
+    </ul>
+
+    <br/>
+
+    <div style="padding-top:5px; padding-bottom:5px">
+        <input type="radio" name="action" id="review"> update name on register and review changes<br/>
+    </div>
+    <div style="padding-top:5px; padding-bottom:5px">
+        <input type="radio" name="action" id="hold"> hold application for <input type="text" id="holdTime"
+                                                                                 style="width:40px; border:1px solid #999999">
+        days<br/>
+    </div>
+    <div style="padding-top:5px; padding-bottom:5px">
+        <input type="radio" name="action" id="reassign"> reassign application to <input type="text" id="assignTo"
+                                                                                        style="width:100px; border:1px solid #999999"><br/>
+        <br/>
+    </div>
+    <div>
+        <input type="button" class="btn btn-lg btn-default" value="Continue" onclick="submitActions();">
+        <a href="{{ site.baseurl }}/andy/getwork/" class="btn btn-lg btn-warning">
+            Cancel <i class="fa fa-angle-double-right"></i>
+        </a>
+    </div>
+
+</div>
