@@ -1,0 +1,68 @@
+<footer class="footer">
+  <div class="well">
+    <p class="text-muted text-center"><i class="fa fa-copyright"></i> {{ site.author }} 2015 {{ site.baseurl }}.</p>
+  </div>
+</footer>
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+<script>
+function change()
+{
+    var elem = document.getElementById("showhide");
+    var firstRegProp = document.getElementById("borrower1").value.toUpperCase()
+    var secondRegProp = document.getElementById("borrower2").value.toUpperCase()
+    if (elem.innerText=="Show changes"){
+     elem.innerText = "Hide changes"
+     document.getElementById("name1").style.color = ("green")
+     document.getElementById("name2").style.color = ("green")
+     document.getElementById("name1").innerText = "#" + firstRegProp + "#"
+     document.getElementById("name2").innerText = "#" + secondRegProp + "#"
+     document.getElementById("aerith").style.color = ("green")
+     document.getElementById("bob").style.color = ("green")
+
+
+
+    }
+    else {
+        elem.innerText = "Show changes";
+        document.getElementById("name1").style.color = ("black")
+        document.getElementById("name2").style.color = ("black")
+        document.getElementById("name1").innerText = "#FRED SMITH#"
+        document.getElementById("name2").innerText = "#JANE DOE#"
+        document.getElementById("aerith").style.color = ("black")
+        document.getElementById("bob").style.color = ("black")
+
+
+
+    }
+}
+
+function addEntry()
+{
+    var addEntry = document.getElementById("addToRegister");
+    addEntry.style.display = "none";
+    var entryOne = document.getElementById("aerith");
+    var entryTwo = document.getElementById("bob");
+    entryOne.style.display = "block";
+    entryTwo.style.display = "block";
+}
+
+function addNote()
+{
+    var notepad = document.getElementById("noteText").value;
+     alert(notepad)
+    var notepanel = document.getElementById("notes");
+     alert(notepanel.innerHTML)
+   notepanel.innerHTML = notepanel.innerHTML + "<p>" + (notepad) + "</p>";
+   document.getElementById("noteText").value = '';
+}
+
+function applyChanges()
+{
+    var firstRegProp = document.getElementById("borrower1").value.toUpperCase()
+    var secondRegProp = document.getElementById("borrower2").value.toUpperCase()
+     document.getElementById("name1").innerText = "#" + firstRegProp + "#"
+     document.getElementById("name2").innerText = "#" + secondRegProp + "#"
+}
+</script>
