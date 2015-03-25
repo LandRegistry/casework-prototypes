@@ -35,4 +35,34 @@
         document.getElementById('pointsArising').value = newComments;
         document.getElementById('newComments').value = '';
     }
+
+    function submitActions() {
+
+        if (document.getElementById('review').checked) {
+
+            window.location.href = '{{ site.baseurl }}/andy/confirmsimple/';
+
+        } else if (document.getElementById('hold').checked) {
+
+            if (document.getElementById('holdTime').value == "") {
+                alert("please enter a number of days to hold the application for");
+            } else {
+                alert("application will be held for " + document.getElementById('holdTime').value + " days");
+                window.location.href = '{{ site.baseurl }}/andy/getwork/';
+            }
+
+        } else if (document.getElementById('reassign').checked) {
+
+            if (document.getElementById('assignTo').value == "") {
+                alert("please enter a user or team to reassign this case to");
+            } else {
+                window.location.href = '{{ site.baseurl }}/andy/reassignsimple/';
+            }
+
+        } else {
+
+            alert("You must select a processing option or cancel");
+
+        }
+    }
 </script>
