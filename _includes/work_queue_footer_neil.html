@@ -10,14 +10,14 @@
 function change()
 {
     var elem = document.getElementById("showhide");
-    var firstRegProp = document.getElementById("borrower1").value.toUpperCase()
-    var secondRegProp = document.getElementById("borrower2").value.toUpperCase()
+//    var firstRegProp = document.getElementById("borrower1").value.toUpperCase()
+//    var secondRegProp = document.getElementById("borrower2").value.toUpperCase()
     if (elem.innerText=="Show changes"){
      elem.innerText = "Hide changes"
-     document.getElementById("name1").style.color = ("green")
-     document.getElementById("name2").style.color = ("green")
-     document.getElementById("name1").innerText = "#" + firstRegProp + "#"
-     document.getElementById("name2").innerText = "#" + secondRegProp + "#"
+//     document.getElementById("name1").style.color = ("green")
+//     document.getElementById("name2").style.color = ("green")
+//     document.getElementById("name1").innerText = "#" + firstRegProp + "#"
+//     document.getElementById("name2").innerText = "#" + secondRegProp + "#"
      document.getElementById("aerith").style.color = ("green")
      document.getElementById("bob").style.color = ("green")
 
@@ -26,10 +26,10 @@ function change()
     }
     else {
         elem.innerText = "Show changes";
-        document.getElementById("name1").style.color = ("black")
-        document.getElementById("name2").style.color = ("black")
-        document.getElementById("name1").innerText = "#FRED SMITH#"
-        document.getElementById("name2").innerText = "#JANE DOE#"
+//        document.getElementById("name1").style.color = ("black")
+//        document.getElementById("name2").style.color = ("black")
+//        document.getElementById("name1").innerText = "#FRED SMITH#"
+//        document.getElementById("name2").innerText = "#JANE DOE#"
         document.getElementById("aerith").style.color = ("black")
         document.getElementById("bob").style.color = ("black")
 
@@ -44,8 +44,8 @@ function addEntry()
     addEntry.style.display = "none";
     var entryOne = document.getElementById("aerith");
     var entryTwo = document.getElementById("bob");
-    entryOne.style.display = "block";
-    entryTwo.style.display = "block";
+    entryOne.style.display = "list-item";
+    entryTwo.style.display = "list-item";
 }
 
 function addNote()
