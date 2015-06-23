@@ -18,8 +18,121 @@ permalink: /neil/casework/
         <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">-->
         <div>
             <div class="col-md-6">
-                <h1>Manage case</h1>
-                <div class="panel-group" id="accordion">
+                <h1>Case LR1011</h1>
+                <div class="panel-group">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h2 class="panel-title">
+                                <a data-toggle="collapse" href="#collapseA">
+                                    Case details
+                                </a>
+                            </h2>
+                        </div>
+                        <div id="collapseA" class="panel-collapse collapse in">
+                            <div class="panel-body">
+                                <table class="table table-striped table-hover">
+                                    <caption class="sr-only">Case details</caption>
+                                    <tbody>
+                                        <tr>
+                                            <th id="titleNo">Title number</th>
+                                            <td headers="titleNo">DN1</td>
+                                        </tr>
+                                        <tr>
+                                            <th id="appnRef">Application reference</th>
+                                            <td headers="appnRef">LR1011</td>
+                                        </tr>
+                                        <tr>
+                                            <th id="date">Received</th>
+                                            <td headers="date">1 May 2015 13:00</td>
+                                        </tr>
+                                        <tr>
+                                            <th id="mortgageDate">Mortgage date</th>
+                                            <td headers="mortgageDate">13 Apr 2015</td>
+                                        </tr>
+                                        <tr>
+                                            <th id="lender">Lender name</th>
+                                            <td headers="lender">
+                                                GE Money Home Finance Limited
+                                                <br/>
+                                                <a href="mailto:someone@example.com?Subject=Hello%20again" target="_top">Send Mail</a>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h2 class="panel-title">
+                                <a data-toggle="collapse" href="#collapseB">
+                                    Case history
+                                </a>
+                            </h2>
+                        </div>
+                        <div id="collapseB" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                <ul>
+                                    <li>
+                                        1 May 2015 - Application lodged by Dwight Spiegelhacker of Semple, Calendar and Henty Solicitors
+                                    </li>
+                                    <li>
+                                        5 May 2015 - Assigned to Edward Cunard, apprentice caseworker
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h2 class="panel-title">
+                                <a data-toggle="collapse" href="#collapseC">
+                                    Charge entries
+                                </a>
+                            </h2>
+                        </div>
+                        <div id="collapseC" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                <h3>Charge</h3>
+                                <p><i class="fa fa-calendar fa-fw" alt="Entry date" title="Entry date"></i> 1 May 2015 13:00</p>
+                                <p><i class="fa fa-file-text-o fa-fw" alt="Entry text" title="Entry text"></i> REGISTERED CHARGE dated 13 April 2015.</p>
+                                <h3>Charge proprietor</h3>
+                                <p><i class="fa fa-calendar fa-fw" alt="Entry date" title="Entry date"></i> 1 May 2015 13:00</p>
+                                <p><i class="fa fa-file-text-o fa-fw" alt="Entry text" title="Entry text"></i> Proprietor: GE Money Home Finance Limited (Co. Regn. No. 592986) of Building 4, Hatters Lane, Croxley Green Business Park, Watford WD18 8YF</p>
+                                <input type="button" value="Add to register" id="addToRegister" onclick="addEntry()"/>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h2 class="panel-title">
+                                <a data-toggle="collapse" href="#collapseD">
+                                    Notes
+                                </a>
+                            </h2>
+                        </div>
+                        <div id="collapseD" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                <div id="notes">
+                                </div>
+                                <div>
+                                    <textarea id="noteText" cols="50" rows="5"></textarea>
+                                    <br/>
+                                    <input type="button" value="Add Note" id="addNote" onclick="addNote()"/>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+
+
+
+
+      <!--          <div class="panel-group" id="accordion">
                     <div class="panel panel-default">
                         <div class="panel-heading">
                             <h2 class="panel-title">
@@ -176,7 +289,7 @@ permalink: /neil/casework/
                             </div>
                         </div>
                     </div>-->
-                    <div class="panel panel-default">
+         <!--           <div class="panel panel-default">
                         <div class="panel-heading">
                             <h2 class="panel-title">
                                 <a data-toggle="collapse" href="#collapseEleven">
@@ -197,7 +310,7 @@ permalink: /neil/casework/
                                 <textarea id="noteText" cols="50" rows="5"></textarea>
                                 <br/>
                                 <input type="button" value="Add Note" id="addNote" onclick="addNote()"/>
-                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -343,13 +456,13 @@ permalink: /neil/casework/
                                 (21.01.2009) REGISTERED CHARGE dated 6 January 2009.
                             </li>
                             <li>
-                                (21.01.2009) Proprietor: #ABBEY NATIONAL PLC# (Co. Regn. No. 2294747) of Deeds Services, 101 Midsomer Boulevard, Milton Keynes MK9 1AA.
+                                (21.01.2009) Proprietor: GE Money Home Finance Limited (Co. Regn. No. 592986) of Building 4, Hatters Lane, Croxley Green Business Park, Watford WD18 8YF
                             </li>
                             <li id="aerith" style="display:none">
-                                (21.03.2015) REGISTERED CHARGE dated 20 March 2015.
+                                (01.11.2013) REGISTERED CHARGE dated 13 August 2013.
                             </li>
                             <li id="bob" style="display:none">
-                                (21.03.2015) Proprietor: #ABBEY NATIONAL PLC# (Co. Regn. No. 2294747) of Deeds Services, 101 Midsomer Boulevard, Milton Keynes MK9 1AA.
+                                (01.11.2013) Proprietor: GE Money Home Finance Limited (Co. Regn. No. 592986) of Building 4, Hatters Lane, Croxley Green Business Park, Watford WD18 8YF
                             </li>
 
                         </ol>
@@ -364,11 +477,11 @@ permalink: /neil/casework/
                 </div>
                 <div>
                     <a class="btn btn-default" href="{{ site.baseurl }}/neil/getwork/">
-                        Back to casework list
+                        Close application
                     </a>
-                    <a class="btn btn-warning" href="{{ site.baseurl }}/neil/referral/">
-                        Refer case
-                    </a>
+<!--                    <a class="btn btn-warning" href="{{ site.baseurl }}/neil/referral/">
+                        Refer application
+                    </a> -->
                     <a class="btn btn-primary" href="{{ site.baseurl }}/neil/confirmation/">
                         Complete and mark off
                     </a>
