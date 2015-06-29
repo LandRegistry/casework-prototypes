@@ -12,20 +12,20 @@ function change()
     var elem = document.getElementById("showhide");
 //    var firstRegProp = document.getElementById("borrower1").value.toUpperCase()
 //    var secondRegProp = document.getElementById("borrower2").value.toUpperCase()
-    if (elem.innerText=="Show changes"){
-     elem.innerText = "Hide changes"
+    if (elem.innerText=="Highlight changes"){
+     elem.innerText = "Revert"
 //     document.getElementById("name1").style.color = ("green")
 //     document.getElementById("name2").style.color = ("green")
 //     document.getElementById("name1").innerText = "#" + firstRegProp + "#"
 //     document.getElementById("name2").innerText = "#" + secondRegProp + "#"
-     document.getElementById("aerith").style.color = ("green")
-     document.getElementById("bob").style.color = ("green")
+     document.getElementById("aerith").style.color = ("blue")
+     document.getElementById("bob").style.color = ("blue")
 
 
 
     }
     else {
-        elem.innerText = "Show changes";
+        elem.innerText = "Highlight changes";
 //        document.getElementById("name1").style.color = ("black")
 //        document.getElementById("name2").style.color = ("black")
 //        document.getElementById("name1").innerText = "#FRED SMITH#"
@@ -46,6 +46,10 @@ function addEntry()
     var entryTwo = document.getElementById("bob");
     entryOne.style.display = "list-item";
     entryTwo.style.display = "list-item";
+    var showHide = document.getElementById("highlightChanges");
+    showHide.style.display = "inline";
+    var completion = document.getElementById("completion");
+    completion.style.display = "inline";
 }
 
 function addNote()
