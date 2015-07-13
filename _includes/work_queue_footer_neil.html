@@ -46,10 +46,23 @@ function addEntry()
     var entryTwo = document.getElementById("bob");
     entryOne.style.display = "list-item";
     entryTwo.style.display = "list-item";
-    var showHide = document.getElementById("highlightChanges");
-    showHide.style.display = "inline";
     var completion = document.getElementById("completion");
     completion.style.display = "inline";
+    document.getElementById("aerith").style.color = ("blue")
+    document.getElementById("bob").style.color = ("blue")
+    var entries = document.getElementById("noOfEntries");
+    entries.style.display = "none";
+    var approved = document.getElementById("allApproved");
+    approved.style.display = "inline";
+    var entryLinkOne = document.getElementById("viewC1");
+    entryLinkOne.style.display = "inline";
+    var entryLinkTwo = document.getElementById("viewC2");
+    entryLinkTwo.style.display = "inline";
+    var entryLinkThree = document.getElementById("viewB1");
+    entryLinkThree.style.display = "inline";
+    var bRegEntry = document.getElementById("baldrick");
+    bRegEntry.style.display = "list-item";
+    bRegEntry.style.color = ("blue");
 }
 
 function addNote()
@@ -57,8 +70,8 @@ function addNote()
     var notepad = document.getElementById("noteText").value;
 
     var notepanel = document.getElementById("notes");
-   notepanel.innerHTML = notepanel.innerHTML + "<p>" + (notepad) + "</p>";
-   document.getElementById("noteText").value = '';
+    notepanel.innerHTML = notepanel.innerHTML + "<p>" + (notepad) + "</p>";
+    document.getElementById("noteText").value = '';
 }
 
 function applyChanges()
@@ -68,4 +81,15 @@ function applyChanges()
      document.getElementById("name1").innerText = "#" + firstRegProp + "#"
      document.getElementById("name2").innerText = "#" + secondRegProp + "#"
 }
+
+function viewBReg(){
+    var viewBReg = document.getElementById("bReg");
+    viewBReg.click();
+}
+
+function viewCReg(){
+    var viewCReg = document.getElementById("cReg");
+    viewCReg.click();
+}
+
 </script>
