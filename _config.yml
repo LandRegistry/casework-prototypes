@@ -1,11 +1,13 @@
 # Site settings
-title: Land Registry
+title: Casework Prototypes
 author: Land Registry
 email:
-description: Land Registry
-baseurl: "/casework-prototypes" # the subpath of your site, e.g. /blog/
+description: Land Registry Casework Prototypes
+baseurl: "/casework-prototypes/" # the subpath of your site, e.g. /blog/
 url: "http://www.landregistryconcept.co.uk" # the base hostname & protocol for your site
 
+gems:
+  - jekyll-sitemap
 
 # Build settings
 markdown: kramdown
